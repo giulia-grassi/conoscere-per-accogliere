@@ -751,20 +751,28 @@
 
                  <!-- Modal Mappe Italia (square 15) -->
                 <div id="modalMap" class="stereotipi-modal" style="display:none;">
-                        <div class="testimonianze-content">
+                        <div class="testimonianze-content" style="padding-left: 0px;">
                             <span class="modal-number-in">[ 13 ] Il sistema di accoglienza in Italia </span>
                                 <span class="modal-map-close">&times;</span>
+                                <div style="padding: 10px;"></div>
                                 <div id="modalMap-content">
                                     <h2 id="map-modal-title"><br>Mappa dell'Italia</h2>
                                     <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 16px; width: 100%; max-width: 900px; margin: 30px auto 0 auto;">
-                                        <div id="map-legend" style="flex: 0 0 90px; min-width: 60px; background: #f7fafd; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 8px 6px; font-size: 0.8rem; margin-right: 0;"></div>
-                                        <div id="map-slide-container" style="flex: 1 1 640px; min-width: 0; aspect-ratio: 4/3; overflow: hidden; position: relative; height: 400px;">
-                                            <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=192gSAsjVZanVHG1lSnr-Mq6upNCtIzA&ehbc=2E312F&noprof=1" width="100%" height="480" style="border:0; border-radius: 12px; position: absolute; top: -60px; left: 0; min-height: 350px; transition: opacity 0.3s;" allowfullscreen loading="lazy"></iframe>
+                                        <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 0; min-width: 0;">
+                                            <div style="display: flex; flex-direction: row; align-items: center; gap: 8px; margin-bottom: 12px;">
+                                                <button id="map-prev-btn" style="padding: 8px 18px; border-radius: 8px; border: 1px solid #111; background: transparent; color: #111; font-size: 1.2rem; cursor: pointer; transition: opacity 0.2s;">&lt;</button>
+                                                <button id="map-next-btn" style="padding: 8px 18px; border-radius: 8px; border: 1px solid #111; background: transparent; color: #111; font-size: 1.2rem; cursor: pointer; transition: opacity 0.2s;">&gt;</button>
+                                            <style>
+                                                #map-prev-btn:hover, #map-next-btn:hover {
+                                                    opacity: 0.5;
+                                                }
+                                            </style>
+                                            </div>
+                                            <div id="map-legend" style="flex: 0 0 120px; min-width: 90px; padding: 14px 12px; font-size: 1.05rem; margin-right: 0; text-align: left;"></div>
                                         </div>
-                                    </div>
-                                    <div style="text-align:center; margin-top: 12px;">
-                                        <button id="map-prev-btn" style="margin-right: 16px; padding: 6px 18px; border-radius: 8px; border: none; background: #33758C; color: #fff; font-size: 1rem; cursor: pointer;">&lt;</button>
-                                        <button id="map-next-btn" style="padding: 6px 18px; border-radius: 8px; border: none; background: #33758C; color: #fff; font-size: 1rem; cursor: pointer;">&gt;</button>
+                                        <div id="map-slide-container" style="flex: 1 1 640px; min-width: 0; aspect-ratio: 4/3; overflow: hidden; position: relative; height: 600px;">
+                                            <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=192gSAsjVZanVHG1lSnr-Mq6upNCtIzA&ehbc=2E312F&noprof=1" width="100%" height="700" style="border:0; border-radius: 12px; position: absolute; top: -60px; left: 0; min-height: 550px; transition: opacity 0.3s;" allowfullscreen loading="lazy"></iframe>
+                                        </div>
                                     </div>
                                     <div class="stereotipi-buttons" style="text-align: center; margin-top: 24px;">
                                        
@@ -775,14 +783,14 @@
                  <!-- Definizione slide mappa (modificabile da HTML) -->
                 <div style="display:none;">
                     <div class="map-slide-data" 
-                        data-title="Mappa dell'Italia" 
+                        data-title="Accoglienza in Italia" 
                         data-src="https://www.google.com/maps/d/u/0/embed?mid=192gSAsjVZanVHG1lSnr-Mq6upNCtIzA&ehbc=2E312F&noprof=1"
-                        data-legend='[{"color":"#e74c3c","label":"Valore 1 (placeholder)"},{"color":"#2980b9","label":"Valore 2 (placeholder)"}]'>
+                        data-legend='[{"color":"#A52714","label":"Hotspot"},{"color":"#0588D1","label":"CPR"}]'>
                     </div>
                     <div class="map-slide-data" 
-                        data-title="Mappa accoglienza in Italia" 
-                        data-src="https://www.google.com/maps/d/u/0/embed?mid=1Qn8uwZILGkDwgrJvXKWzh-6gsHD8QlE&ehbc=2E312F&noprof=1"
-                        data-legend='[{"color":"#27ae60","label":"Valore A (placeholder)"},{"color":"#f1c40f","label":"Valore B (placeholder)"},{"color":"#8e44ad","label":"Valore C (placeholder)"}]'>
+                                                data-title="Strutture sul territorio" 
+                                                data-src="https://www.google.com/maps/d/u/0/embed?mid=1Qn8uwZILGkDwgrJvXKWzh-6gsHD8QlE&ehbc=2E312F&noprof=1"
+                                                data-legend='[{"color":"#C2195B","label":"CAS (Centri Accoglienza Straordinaria) <br>"},{"color":"#0688D1","label":"SAI (Servizio Accoglienza e Integrazione) <br>"},{"color":"#F8A824","label":"Accoglienza Ucraini"}]'>
                     </div>
                 </div>
 
