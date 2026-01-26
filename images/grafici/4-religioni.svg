@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1005 600">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #c0dd83;
+      }
+
+      .st2, .st3 {
+        fill: #c63c53;
+      }
+
+      .st4, .st5, .st6, .st7, .st8, .st9, .st1, .st3 {
+        stroke-miterlimit: 10;
+      }
+
+      .st4, .st5, .st6, .st7, .st8, .st9, .st1, .st3, .st10 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .st4, .st11 {
+        fill: #4c5356;
+      }
+
+      .st12, .st5 {
+        fill: #8fd4ef;
+      }
+
+      .st13, .st14 {
+        isolation: isolate;
+      }
+
+      .st15, .st8 {
+        fill: #f7966f;
+      }
+
+      .st6, .st16 {
+        fill: #2166ac;
+      }
+
+      .st17 {
+        fill: #fff;
+      }
+
+      .st7, .st18 {
+        fill: #cec35f;
+      }
+
+      .st14 {
+        font-family: ArialMT, Arial;
+        font-size: 17.64px;
+      }
+
+      .st19, .st10 {
+        fill: #bababa;
+      }
+
+      .st9, .st20 {
+        fill: #679969;
+      }
+    </style>
+  </defs>
+  <g id="pie">
+    <path class="st6" d="M357.68,27.24c147.05,0,266.26,119.21,266.26,266.26,0,26.82-4.05,53.48-12.02,79.09l-254.24-79.09V27.24Z"/>
+    <path class="st3" d="M611.92,372.59c-43.68,140.41-192.92,218.83-333.33,175.15-21.86-6.8-42.76-16.39-62.16-28.54l141.25-225.7,254.24,79.09Z"/>
+    <path class="st8" d="M216.43,519.2c-82.33-51.52-130.07-143.78-124.58-240.75l265.83,15.05-141.25,225.7Z"/>
+    <path class="st10" d="M91.85,278.45c3.08-54.43,22.79-106.6,56.48-149.46l209.36,164.51-265.83-15.05Z"/>
+    <path class="st1" d="M148.33,128.99c14.15-18,30.56-34.1,48.82-47.91l160.53,212.42-209.36-164.51Z"/>
+    <path class="st5" d="M197.15,81.08c14.69-11.11,30.5-20.66,47.17-28.5l113.37,240.92L197.15,81.08Z"/>
+    <path class="st7" d="M244.32,52.58c14.14-6.65,28.83-12.05,43.92-16.12l69.45,257.04L244.32,52.58Z"/>
+    <path class="st9" d="M288.23,36.46c11.31-3.06,22.81-5.36,34.42-6.9l35.03,263.94L288.23,36.46Z"/>
+    <path class="st4" d="M322.65,29.55c11.61-1.54,23.32-2.31,35.03-2.31v266.26L322.65,29.55Z"/>
+  </g>
+  <rect class="st0" x="724.5" y="235.03" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 257.08)"><tspan x="0" y="0">Altra cristiana</tspan></text>
+  </g>
+  <rect class="st11" x="724.5" y="395.82" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 417.87)"><tspan x="0" y="0">Altra religione</tspan></text>
+  </g>
+  <rect class="st12" x="724.5" y="315.42" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 337.48)"><tspan x="0" y="0">Buddista</tspan></text>
+  </g>
+  <rect class="st15" x="724.5" y="114.43" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 136.49)"><tspan x="0" y="0">Cristiana cattolica</tspan></text>
+  </g>
+  <rect class="st18" x="724.5" y="194.83" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 216.88)"><tspan x="0" y="0">Cristiana evangelica</tspan></text>
+  </g>
+  <rect class="st2" x="724.5" y="154.63" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 176.68)"><tspan x="0" y="0">Cristiana ortodossa</tspan></text>
+  </g>
+  <rect class="st20" x="724.5" y="355.62" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 377.67)"><tspan x="0" y="0">Induista</tspan></text>
+  </g>
+  <rect class="st16" x="724.5" y="275.22" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 297.28)"><tspan x="0" y="0">Musulmana</tspan></text>
+  </g>
+  <rect class="st19" x="724.5" y="436.01" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st13">
+    <text class="st14" transform="translate(759.78 458.07)"><tspan x="0" y="0">Nessuna religione</tspan></text>
+  </g>
+  <g class="st13">
+    <text/>
+  </g>
+  <circle class="st17" cx="357.68" cy="293.5" r="157.28"/>
+</svg>

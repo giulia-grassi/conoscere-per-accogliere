@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conoscere per accogliere</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- Onboarding overlay -->
+    <div id="onboarding-overlay" class="onboarding-overlay">
+        <div class="onboarding-content">
+            <h2 id="onboarding-welcome" class="onboarding-welcome">Benvenuto!</h2>
+            <img src="images/home/4-stereotipi.png" alt="Benvenuto" style="display:block; margin: 0; max-width: 580px; width: 100%; height: auto; opacity: 0.85;">
+            <div class="onboarding-row">
+                <div class="onboarding-col onboarding-col-arrows">
+                    <div class="onboarding-arrows">
+                        <span class="arrow"></span>
+                        <span class="arrow"></span>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="onboarding-label">scroll per esplorare</div>
+                </div>
+                <div class="onboarding-col onboarding-col-click">
+                    <div class="onboarding-click-pulse" aria-label="Clicca sulle immagini"></div>
+                    <div class="onboarding-label">click per approfondire</div>
+                </div>
+            </div>
+            <button id="onboarding-close" class="onboarding-btn">Inizia</button>
+        </div>
+    </div>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-logo" id="navbar-logo">Conoscere per accogliere</div>
+            <div class="navbar-dots">
+                <span class="dot active" data-section="0"></span>
+                <span class="dot" data-section="1"></span>
+                <span class="dot" data-section="2"></span>
+                <span class="dot" data-section="3"></span>
+                <span class="dot" data-section="4"></span>
+                <span class="dot" data-section="5"></span>
+                <span class="dot" data-section="6"></span>
+                <span class="dot" data-section="7"></span>
+                <span class="dot" data-section="8"></span>
+                <span class="dot" data-section="9"></span>
+            </div>
+            <div class="navbar-links">
+                <a href="storia.html">Il viaggio</a>
+                <a href="about.html">Progetti</a>
+            </div>
+        </div>
+    </nav>
+
+ <!-- MAIN CONTAINER -->
+     <div class="outer-container">
+        <div class="horizontal-wrapper" id="horizontal-sections">
+
+            <!-- Sezione iniziale: Welcome/Home -->
+            <section>
+                <div class="parallax-container">
+                     <div class="img-label-wrap img-0-intro-wrap">
+                        <img src="images/home/0-intro-a.png" alt="Intro: l'inizio del viaggio" class="img-home img-2-intro">
+                        <span class="modal-number2">[ 1 ]</span>
+                    </div>
+                    <img src="images/home/0-intro-c.png" alt="Intro: l'inizio del viaggio" class="img-0-intro-b">
+                    <img src="images/home/0-intro-d.png" alt="Intro: l'inizio del viaggio" class="img-0-intro-c">
+                </div>
+            </section>
+            <!-- First section: Intro -->
+
+            <section>
+                <div class="parallax-container">
+                    
+                    <div class="img-label-wrap img-1-intro-wrap">
+                        <video src="images/home/1-intro.mp4" alt="Intro: l'inizio del viaggio" class="img-home img-1-intro" id="island-square" style="transform: scaleX(-1);" autoplay loop muted playsinline></video>
+                        <span class="modal-number1">[ 2 ]</span>
+                    </div>
+                    <div class="img-label-wrap img-3-intro-wrap">
+                        <img src="images/home/2b-intro.png" alt="Intro: l'inizio del viaggio" class="img-home img-3-intro">
+                        <span class="modal-number2">[ 3 ]</span>
+                    </div>
+                      <img src="images/home/3b-intro.png" alt="Intro: l'inizio del viaggio" class="img-home img-3b-intro">
+                </div>
+            </section>
+            
+            <!-- Second section: Pregiudizi e stereotipi -->
+
+            <section>
+                <div class="parallax-container">
+                      <img src="images/home/4a-stereotipi.png" alt="Stereotipi, pregiudizi e discriminazioni" class="img-4a-stereotipi">
+                    <div class="img-label-wrap img-5-stereotipi-wrap">
+                        <img src="images/home/5-stereotipi.png" alt="Stereotipi, pregiudizi e discriminazioni" class="img-home img-5-stereotipi" style="transform: scaleY(1.05);">
+                        <span class="modal-number5">[ 5 ]</span>
+                    </div>
+                    <div class="img-label-wrap img-4-stereotipi-wrap">
+                        <div class="clickable-center" tabindex="0" aria-label="Apri stereotipi"></div>
+                        <img src="images/home/4-stereotipi.png" alt="Stereotipi, pregiudizi e discriminazioni" class="img-home img-4-stereotipi">
+                        <span class="modal-number4">[ 4 ]</span>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Third section: potere del passaporto -->
+
+            <section>
+                <div class="parallax-container">
+                    <div class="img-label-wrap img-6-passaporto-wrap" id="square-6">
+                        <img src="images/home/6-passaporto.png" alt="Il potere del passaporto" class="img-home img-6-passaporto">
+                        <span class="modal-number5">[ 6 ]</span>
+                    </div>
+                    <div class="img-label-wrap img-7-passaporto-wrap" id="square-7">
+                        <img src="images/home/7-passaporto.png" alt="Il potere del passaporto" class="img-home img-6-passaporto">
+                        <span class="modal-number5">[ 7 ]</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fourth section: Rotte verso l'europa -->
+
+            <section>
+                
+                    <div class="parallax-container">
+                    <div class="img-label-wrap img-8-rotte-wrap" id="square-8">
+                        <img src="images/home/8-rotte.png" alt="Rotte migratorie verso l'Italia" class="img-home img-8-rotte">
+                        <span class="modal-number5">[ 8 ]</span>
+                    </div>
+                    <div class="img-label-wrap img-9-rotte-wrap" id="square-9">
+                        <img src="images/home/9-rotte.png" alt="Rotte migratorie verso l'Italia" class="img-home img-9-rotte">
+                        <span class="modal-number5">[ 9 ]</span>
+                    </div>
+                 <img src="images/home/9b-rotte.png" alt="Stereotipi, pregiudizi e discriminazioni" class="img-9b-rotte"> </div>
+            </section>
+
+            <!-- Fifth section: Divisione del mare -->
+
+            <section>
+                <div class="parallax-container">
+                                    <div class="img-label-wrap img-10-mare-wrap">
+                                                <div class="clickable-center" id="mare-center-overlay" tabindex="0" aria-label="Apri divisione mare"></div>
+                                                <img src="images/home/10-mare.png" alt="Divisione del mare e zone SAR" class="img-home img-10-mare">
+                                                <span class="modal-number10">[ 10 ]</span>
+                                        </div>
+                </div>
+            </section>
+
+            <!-- Sixth section: tipologie di protezioni -->
+
+             <section>
+                <div class="parallax-container">
+                   
+                    <div class="interactive-square square-8" id="square-13">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 13 ]</span>
+                    </div>
+                    <h1>[ Richiesta asilo e tipologie di protezioni ]</h1>
+                </div>
+            </section>
+            
+            <!-- Seventh section: Il sistema di accoglienza in Italia -->
+
+            <section>
+                <div class="parallax-container">
+                    <div class="interactive-square square-6" id="square-14">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 14 ]</span>
+                    </div>
+                    <div class="interactive-square square-7" id="square-15">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 15 ]</span>
+                    </div>
+    
+                    <h1>[ Il sistema di accoglienza in Italia ]</h1>
+                </div>
+            </section>
+
+            <!-- Eighth section: Professionisti dell'accoglienza -->
+
+            <section>
+                <div class="parallax-container">
+                    <div class="interactive-square square-9" id="square-16">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 16 ]</span>
+                    </div>
+                    <div class="interactive-square square-8" id="square-17">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 17 ]</span>
+                    </div>
+    
+                    <h1>[ Professionisti dell'accoglienza ]</h1>
+                </div>
+            </section>
+
+            <!-- Ninth section: MSNA -->
+
+           <section>
+                <div class="parallax-container">
+                    <div class="interactive-square square-6" id="square-18">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 18 ]</span>
+                    </div>
+                    <div class="interactive-square square-7" id="square-19">
+                        <span style="display: flex; align-items: center; justify-content: center; height: 100%; font-size: 1em;">[ 19 ]</span>
+                    </div>
+    
+                    <h1>[ MSNA ]</h1>
+                </div>
+            </section>
+            
+        </div>
+     </div> 
+
+    <!-- MODAL BOXES -->
+     
+    <!-- Desert Island Modal (square 1) -->
+    <div id="islandModal" class="island-modal">
+    <div class="island-content">
+         <span class="modal-number-in">[ 2 ] Prepararsi al viaggio </span>
+        <span class="island-close">&times;</span>
+        <h2 >Cosa porteresti con te se dovessi partire per un'isola deserta?</h2>
+        <div class="postit-container">
+            <img src="images/post-it/1.1.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.2.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.3.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/1.4.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.5.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.6.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/1.7.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.8.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.9.webp" class="postit" alt="Post-it 3">
+             <img src="images/post-it/1.10.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.11.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.12.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/1.13.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.14.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.15.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/1.16.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.17.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.18.webp" class="postit" alt="Post-it 3">
+             <img src="images/post-it/1.19.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.20.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.21.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/1.22.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/1.23.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/1.24.webp" class="postit" alt="Post-it 3">
+        </div>
+        <div class="modal-note">
+            Con la partecipazione delle classi del Liceo di Monza, anno 2025
+        </div>
+    </div>
+    </div>
+    </div>
+
+ <!-- Quiz Modal (square 2) -->
+    <div id="quizModal" class="quiz-modal">
+        <div class="quiz-content">
+            <span class="modal-number-in" id="quiz-modal-number-in">[ 1 ] Prepararsi al viaggio </span>
+            <span class="quiz-close">&times;</span>
+            
+            <!-- Slide 0: Intro -->
+            <div class="quiz-slide" data-slide="0">
+                <h2>Prima di partire...</h2>
+                <p style="font-size: 1.2em; margin: 30px 0;">Quante cose sai sulle migrazioni in Italia?</p>
+                <button class="quiz-start-btn" id="quiz-start">Mettiti alla prova</button>
+            </div>
+            
+            <!-- Slide 1 -->
+            <div class="quiz-slide" data-slide="1" style="display: none;">
+                <p>Indovina:</p>
+                <h2>Quanti sono gli stranieri che vivono in Italia?</h2>
+                
+                <div class="quiz-options">
+                    <button class="quiz-option" data-answer="wrong">1 milione</button>
+                    <button class="quiz-option" data-answer="correct">5 milioni</button>
+                    <button class="quiz-option" data-answer="wrong">10 milioni</button>
+                    <button class="quiz-option" data-answer="wrong">15 milioni</button>
+                </div>
+                <div class="quiz-feedback"></div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="quiz-slide" data-slide="2" style="display: none;">
+                <p>Indovina:</p>
+                <h2>Quali sono le tre nazionalità prevalenti?</h2>
+                <div class="quiz-options">
+                    <button class="quiz-option" data-answer="correct">Romania, Albania, Marocco</button>
+                    <button class="quiz-option" data-answer="wrong">Cina, India, Pakistan</button>
+                    <button class="quiz-option" data-answer="wrong">Tunisia, Egitto, Nigeria</button>
+                    <button class="quiz-option" data-answer="wrong">Ucraina, Polonia, Bulgaria</button>
+                </div>
+                <div class="quiz-feedback"></div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="quiz-slide" data-slide="3" style="display: none;">
+                <p>Indovina:</p>
+                <h2>Età media e genere prevalente?</h2>
+                <div class="quiz-options">
+                    <button class="quiz-option" data-answer="correct">35 anni, equilibrio tra maschi e femmine</button>
+                    <button class="quiz-option" data-answer="wrong">25 anni, prevalentemente maschi</button>
+                    <button class="quiz-option" data-answer="wrong">45 anni, prevalentemente femmine</button>
+                    <button class="quiz-option" data-answer="wrong">30 anni, prevalentemente maschi</button>
+                </div>
+                <div class="quiz-feedback"></div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="quiz-slide" data-slide="4" style="display: none;">
+                <p>Indovina:</p>
+                <h2>Qual è la religione prevalente?</h2>
+                <div class="quiz-options">
+                    <button class="quiz-option" data-answer="correct">Cristiana Ortodossa</button>
+                    <button class="quiz-option" data-answer="wrong">Musulmana</button>
+                    <button class="quiz-option" data-answer="wrong">Cattolica</button>
+                    <button class="quiz-option" data-answer="wrong">Buddhista</button>
+                </div>
+                <div class="quiz-feedback"></div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="quiz-navigation" style="display: none;">
+                <button class="quiz-nav-btn" id="quiz-prev" disabled>←</button>
+                <span class="quiz-progress"><span id="quiz-current">1</span> / 4</span>
+                <button class="quiz-nav-btn" id="quiz-next">→</button>
+                <a href="storia.html#section-0" class="stereotipi-btn quiz-link" id="quiz-link" style="display: none; pointer-events: none; opacity: 0.3;">Scopri di più</a>
+            </div>
+        </div>
+    </div>    
+
+    <!-- Video Bagagli Modal (square 3) -->
+    <div id="videoModal2" class="video-modal">
+        <div class="video-content">
+            <div class="video-header-overlay"></div>
+             <span class="modalvideo-number-in">[ 3 ] Prepararsi al viaggio </span>
+            <h2 class="video-title">Bagagli a mano</h2>
+            <span class="video-close-2">&times;</span>
+            <div class="custom-play-button" id="custom-play-bagagli">
+                <svg width="80" height="80" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="38" fill="rgba(255,255,255,0.9)" stroke="rgba(0,0,0,0.3)" stroke-width="2"/>
+                    <polygon points="32,24 32,56 56,40" fill="#333"/>
+                </svg>
+            </div>
+            <video id="bagagli-video" controls>
+                <source src="video/bagagli a mano.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+    </div>
+
+    <!-- Stereotipi Modal (square 4) -->
+    <div id="stereotipiModal" class="stereotipi-modal">
+        <div class="stereotipi-content">
+            <div class="modal-header">
+                                <span id="stereotipi-header-left" style="display: flex; align-items: center; min-width: 90px;">
+                                    <span id="stereotipi-modal-number" class="modal-number-in">[ 4 ] Stereotipi, pregiudizi, discriminazioni </span>
+                                    <button id="stereotipi-back-btn" class="back-btn">← Indietro</button>
+                                </span>
+                               
+                                <span class="stereotipi-close">&times;</span>
+            </div>
+            <!-- Slide 1 -->
+            <div class="stereotipi-slide" data-slide="0">
+                <div id="pregiudizi-slideshow" style="width: 100%; max-width: 800px; margin: auto; display: flex; flex-direction: column; align-items: center;">
+                        <img id="pregiudizi-slideshow-img" src="images/home-slideshows/2.1.webp" alt="Stereotipi, pregiudizi, discriminazioni" style="width: 100%; max-width: 800px; display: block;">
+                    </div>
+                <div class="stereotipi-buttons">
+                    <button class="stereotipi-btn" id="stereotipi-prova">Mettiti alla prova</button>
+                    <a href="storia.html#section-1" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                </div>
+            </div>
+            
+            <!-- Slide 2: Cards sfogliabili -->
+            <div class="stereotipi-slide" data-slide="1" style="display: none;">
+                                <h2 class="stereotipi-cards-title">Stereotipi, pregiudizi, discriminazioni: riguardano anche te?</h2>
+                                <div class="stereotipi-audio-instruction" style="margin-bottom: 18px;">
+                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 18px;">
+                                        <div style="color: #222; font-size: 1em; font-weight: 500; margin-bottom: 8px; text-align: center;">
+                                            <br>Ascolta l’audio prima di proseguire</div>
+                                        <audio id="stereotipi-audio" src="audio/istruzioni-stereotipi.wav" controls style="width: 320px; margin: 0 auto; background: transparent; border-radius: 0;"></audio>
+                                    </div>
+                                </div>
+                <div class="cards-carousel">
+                    <button class="carousel-btn" id="carousel-prev">
+                        <span class="carousel-arrow carousel-arrow-left"></span>
+                    </button>
+                    <div class="card" id="carousel-card">
+                        <div class="card-rectangles">
+                            <div class="card-rect card-rect-1">
+                                <h3 id="carousel-title">Card 1 - Titolo Placeholder</h3>
+                            </div>
+                            <div class="card-rect card-rect-2">
+                                <textarea class="carousel-textarea" data-rect="2" placeholder="Scrivi qui il tuo pensiero..." rows="3"></textarea>
+                            </div>
+                            <div class="card-rect card-rect-3">
+                                <textarea class="carousel-textarea" data-rect="3" placeholder="Scrivi qui il tuo pensiero..." rows="3"></textarea>
+                            </div>
+                            <div class="card-rect card-rect-4">
+                                <textarea class="carousel-textarea" data-rect="4" placeholder="Scrivi qui il tuo pensiero..." rows="3"></textarea>
+                            </div>
+                        </div>
+                        <!-- textarea ora solo nei riquadri colorati -->
+                    </div>
+                    <button class="carousel-btn" id="carousel-next">
+                        <span class="carousel-arrow carousel-arrow-right"></span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<!-- Video Stereotipi Modal (square 5)-->
+    <div id="videoModal" class="video-modal">
+        <div class="video-content">
+            <div class="video-header-overlay"></div>
+            <span class="modalvideo-number-in">[ 5 ] Stereotipi, pregiudizi e discriminazioni </span>
+            <h2 class="video-title">Oltre la maschera</h2>
+            <span class="video-close">&times;</span>
+            <div class="custom-play-button" id="custom-play-stereotipi">
+                <svg width="80" height="80" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="38" fill="rgba(255,255,255,0.9)" stroke="rgba(0,0,0,0.3)" stroke-width="2"/>
+                    <polygon points="32,24 32,56 56,40" fill="#333"/>
+                </svg>
+            </div>
+            <video id="stereotipi-video" controls>
+                <source src="video/stereotipi.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>
+        </div>
+    </div>
+
+    <!-- Viaggio Modal (square 6) -->
+    <div id="viaggioModal" class="island-modal">
+        <div class="island-content">
+            <span class="viaggio-close">&times;</span>
+            <span class="modal-number-in">[ 6 ] Il potere del passaporto </span>
+            <h2>Che cosa porta con sé chi intraprende questo viaggio?</h2>
+            <div class="postit-container">
+       <img src="images/post-it/2.1.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.2.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.3.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/2.4.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.5.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.6.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/2.7.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.8.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.9.webp" class="postit" alt="Post-it 3">
+             <img src="images/post-it/2.10.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.11.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.12.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/2.13.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.14.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.15.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/2.16.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.17.webp" class="postit" alt="Post-it 2">
+           
+             <img src="images/post-it/2.19.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.20.webp" class="postit" alt="Post-it 2">
+            <img src="images/post-it/2.21.webp" class="postit" alt="Post-it 3">
+            <img src="images/post-it/2.22.webp" class="postit" alt="Post-it 1">
+            <img src="images/post-it/2.23.webp" class="postit" alt="Post-it 2">
+            
+    </div>
+     <div class="modal-note">
+            Con la partecipazione delle classi xxx del Liceo xxx di Monza, anno 2025
+        </div>
+        </div>
+    </div>
+
+    <!-- Passaporto Modal (square 7) -->
+    <div id="passaportoModal" class="passaporto-modal">
+        <div class="passaporto-content">
+            <span class="modal-number-in">[ 7 ] Il potere del passaporto </span>
+            <span class="passaporto-close">&times;</span>
+            <h2>Il potere del passaporto</h2>
+            <div class="passaporto-body">
+                <img src="images/passport.png" alt="Passport" class="passaporto-image">
+                <div class="passaporto-buttons">
+                    <a href="https://www.passportindex.org/byRank.php" target="_blank" class="passaporto-btn">Esplora le diseguaglianze</a>
+                    <a href="storia.html#section-2" class="passaporto-btn">Scopri di più</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rotte Modal (square 8) -->
+    <div id="rotteModal" class="stereotipi-modal" style="display:none;">
+        <div class="stereotipi-content">
+            <span class="modal-number-in">[ 8 ] Rotte migratorie verso l'Italia </span>
+            <span class="rotte-close">&times;</span>
+            <div id="rotteModal-content">
+                <h2><br></h2>
+                <div id="rottemigratorie-slideshow" style="width: 100%; max-width: 800px; margin: auto; display: flex; flex-direction: column; align-items: center;">
+                        <img id="rottemigratorie-slideshow-img" src="images/home-slideshows/8.1.webp" alt="Rotte migratorie verso l'Italia" style="width: 100%; max-width: 800px; display: block;">
+                    </div>
+                    <div class="stereotipi-buttons">
+                  <a href="storia.html#section-3" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonianze Modal (square 9) -->
+    <div id="testimonianzeModal" class="testimonianze-modal">
+        <div class="testimonianze-content">
+            <div class="testimonianze-header-switch" style="margin-top: -20px;">
+                <span class="modal-number-in" id="testimonianze-modal-number">[ 9 ] Rotte migratorie verso l'Italia </span>
+                <button class="back-btn" id="testimonianza-back" style="display:none;">← Indietro</button>
+            </div>
+            <span class="testimonianze-close">&times;</span>
+            <h2>Voci e testimonianze di viaggio</h2>
+            <div class="flags-container">
+                <img src="images/flags/bangladesh.png" class="flag-img" alt="Bangladesh" data-country="bangladesh">
+                <img src="images/flags/ghana.png" class="flag-img" alt="Ghana" data-country="ghana">
+                <img src="images/flags/pakistan.png" class="flag-img" alt="Pakistan" data-country="pakistan" style="border: 1px solid #ddd;">
+                <img src="images/flags/syria.webp" class="flag-img" alt="Syria" data-country="syria">
+                <img src="images/flags/ukraine.png" class="flag-img" alt="Ukraine" data-country="ukraine">
+            </div>
+            <div class="testimonianza-view" id="testimonianza-view" style="display: none;">
+                <div class="testimonianza-flag-top" id="testimonianza-flag-top"></div>
+                <div class="testimonianza-text" id="testimonianza-text"></div>
+            </div>
+            
+            <!-- Testi delle testimonianze -->
+            <div class="testimonianze-data" style="display: none;">
+                <div data-country="syria">
+                    <img src="images/flags/syria.webp" style="width: 120px; display: block; margin: 0 auto 20px auto;">
+                    <p><br>Mi chiamo Ali, ho 27 anni vengo da una piccola città della Siria del sud. Non torno nel mio Paese da quando è scoppiata la guerra civile: mi ero appena diplomato, a causa del conflitto avrei dovuto arruolarmi nell'esercito, ma non volendo prendere parte a uno scontro fratricida ho deciso che l'unica opzione che avevo era partire.</p>
+                    <p>Io e la mia famiglia ci siamo rifugiati in Libano, lì ho fatto per anni il cameriere e altri lavori simili, ho provato anche ad ottenere un visto per lasciare il paese, ma nessuna ambasciata mi ha mai risposto: ho chiesto a Germania, Francia, Canada e Australia. Nulla.</p>
+                    <p>Dopo l'esplosione al porto di Beirut nel 2020 la situazione economica nel paese è peggiorata molto, così ho deciso di partire di nuovo con mio fratello minore e siamo andati in Iraq. E quando ho raccolto abbastanza soldi per effettuare il viaggio verso l'Europa, siamo andato in Libia. Siamo passati per la Libia perché avevo provato tutte le vie legali senza successo e non potevo più aspettare.</p>
+                    <p>In Libia abbiamo passato un anno terribile: siamo stati picchiati, torturati, venduti come merce da un gruppo di milizie all'altro. In Libia ogni straniero è visto come una merce per i trafficanti: riducendo le persone in condizioni di schiavitù, lucrano sulla pelle di migliaia di migranti in cerca di un futuro migliore.</p>
+                    <p>La prima volta che abbiamo provato ad attraversare il Mediterraneo le milizie libiche ci hanno fermato dopo poche ore di navigazione, ci hanno riportati indietro e rinchiusi in prigione dove ci hanno torturato per estorcerci soldi.</p>
+                    <p>Nostro padre ci ha messo alcuni mesi per raccogliere i 2 mila dollari a testa necessari per liberarci. Dato che le guardie organizzavano anche le partenze per l'Europa, aggiungendo altri soldi è riuscito a garantirci un secondo tentativo di traversata. A condizione, però, che io e mio fratello fossimo su due barche diverse, per aumentare le possibilità che almeno uno dei due arrivasse in Europa.</p>
+                    <p>Sapevo quanto fosse pericoloso ma a quel punto non potevo tirarmi indietro. Abbiamo navigato per circa 20 ore, poi abbiamo finito il carburante e abbiamo iniziato ad imbarcare acqua. Non pensavo che ce l'avremmo fatta.</p>
+                    <p>Io e le altre persone sulla mia barca siamo stati salvati da una nave di una ONG Europea, ora spero che anche mio fratello minore riesca ad approdare in Europa.</p>
+                </div>
+                
+                <div data-country="bangladesh">
+                    <img src="images/flags/bangladesh.png" style="width: 120px; display: block; margin: 0 auto 20px auto;">
+                    <p><br>Mi chiamo Faisal, ho 21 anni, sono uno studente e vengo da Dhaka, la capitale del Bangladesh. Nel mio Paese ci sono molti problemi in questo momento: il costo della vita, la libertà di espressione e la difficoltà ad avere un'educazione universitaria. Per questo molti studenti, come me, stanno andando via per tentare una carriera altrove.</p>
+                    <p>Io avevo degli ottimi risultati negli studi, ma non riuscivo a vedere un futuro lavorativo per me in Bangladesh. A Dhaka non si riesce a trovare lavoro e i salari sono così bassi che permettono a malapena di comprare da mangiare, c'è molta disuguaglianza nel Paese. Chi ha i mezzi per andarsene lo fa, chi non li ha scende in strada a protestare. In entrambi i casi rischiamo la nostra vita lottando per un futuro migliore, per noi e le nostre famiglie.</p>
+                    <p>I miei familiari all'inizio non erano contenti di vedermi andare via, ma poi hanno capito che era la cosa giusta da fare.</p>
+                    <p>Da Dhaka sono andato prima a Dubai, poi in Egitto e infine in Libia perché un conoscente mi aveva detto che avrei trovato facilmente un lavoro, che la vita costava poco e avrei avuto un buono stipendio.</p>
+                    <p>Lì ho capito in poco tempo come funzionano le cose per gli stranieri: chiunque passi dalla Libia senza essere libico viene sfruttato e discriminato.</p>
+                    <p>Arrivato in Libia, insieme ad altre persone del mio Paese sono stato portato in un capannone fuori da Bengasi; ci hanno detto che avremmo iniziato a lavorare ma che saremmo stati pagati dopo tre mesi di lavoro.</p>
+                    <p>Allo scadere di questo periodo, mi hanno detto che non mi avrebbero pagato e che dovevo andarmene se non volevo che mi facessero del male. Ho capito che chi mi aveva convito a partire veniva pagato dai libici per far arrivare persone dal Bangladesh e sfruttarle.</p>
+                    <p>Non potevo restare in un Paese dove la violenza è usata al posto della legge. Ci ho messo tre mesi per farmi mandare dalla mia famiglia i soldi necessari per pagare il viaggio in mare.</p>
+                    <p>Vorrei riuscire a raggiungere mio zio che vive a Roma, continuare i miei studi e prendere una laurea in fisica. So che sarà molto difficile ma ci metterò tutto me stesso per farcela. Per ora, l'importante è che sono al sicuro.</p>
+                </div>
+                
+                <div data-country="ghana">
+                    <img src="images/flags/ghana.png" style="width: 120px; display: block; margin: 0 auto 20px auto;">
+                    <p><br>Mi chiamo Glory, ho 19 anni. Sono partita dal Ghana circa un anno fa insieme a una mia amica. Il Ghana è un bellissimo Paese ma ha molti problemi da risolvere. Ero stata minacciata da un uomo e avevo paura di restare nella mia città. La mia famiglia era preoccupata, avevano paura che lui mi avrebbe fatto del male.</p>
+                    <p>Un'amica mi ha convinta a partire, non so se ce l'avrei fatta da sola.</p>
+                    <p>Ce ne siamo andate senza dire niente a nessuno. Non sanno che sono qui adesso, come io non sapevo dove sarei andata dopo aver lasciato il Ghana. Sapevo solo che dovevo attraversare il deserto per lasciare i miei problemi alle spalle.</p>
+                    <p>Sono arrivata in Tunisia passando per il deserto dell'Algeria. Durante il viaggio sono stata violentata dagli uomini che avevo pagato per portarmi in Tunisia. Succede a moltissime donne.</p>
+                    <p>In Tunisia la situazione è drammatica. A Sfax i migranti subsahariani come me vengono trattati in modo ignobile, non ci vendono cibo o acqua, non ci affittano case, ci rubano i soldi e gli oggetti, ci picchiano. Ho ancora tante cicatrici sul corpo.</p>
+                    <p>In Tunisia ho raccolto i soldi per il viaggio in mare. In quei mesi non ho mai potuto andare da un dottore perché ero senza documenti.</p>
+                    <p>Spero che in Europa io e tutte le persone che sono arrivate insieme a me saremo trattati con rispetto, che avremo la possibilità di crearci una nuova vita lontano dalla paura e dall'ingiustizia.</p>
+                </div>
+                
+                <div data-country="pakistan">
+                    <img src="images/flags/pakistan.png" style="width: 120px; display: block; margin: 0 auto 20px auto; border: 1px solid #ddd;">
+                    <p><br>Mi chiamo Abdel, ho 15 anni appena compiuti e sono pakistano. Ho viaggiato per tanti Paesi, ho avuto un percorso difficile per poter arrivare fin qui, però non mi sono mai arreso. Vorrei dire alla mia mamma che le voglio bene e che mi manca tanto e andrò a trovarla.</p>
+                    <p>Sono sopravvissuto a the game, il crudele "gioco" degli attraversamenti tra le frontiere balcaniche. Ho viaggiato per un anno, dalla Croazia sono stato respinto 12 volte, in alcuni casi picchiato e derubato dalla polizia di frontiera. Ho camminato tanto a piedi, un mese e sei giorni dalla Bosnia, arrivando senza avere nulla da mangiare.</p>
+                    <p>Se dici che sei un minorenne, non ascoltano. Quando sono arrabbiati, picchiano e basta.</p>
+                    <p>Sogno spesso le violenze della polizia nei boschi della Croazia. Una volta ci hanno fatto camminare senza sosta in salita per ore, continuando a darci botte, un poliziotto si divertiva a farlo, gli altri gli dicevano di smetterla ma lui andava avanti. Un'altra volta ci hanno denudato e gettato in un fiume gelato, con le rocce che spuntavano dall'acqua. Una volta invece la polizia è arrivata, i piedi erano feriti e non siamo riusciti a scappare, avevano i cani. Quando abbiamo riprovato di nuovo a scappare, uno di noi è stato bastonato dalla polizia alla testa ed è morto sul colpo. È morto e l'hanno preso e buttato nel fiume, l'hanno buttato nel fiume, la polizia, il suo corpo non l'abbiamo ritrovato neanche noi. Eravamo in Croazia, in Unione Europea.</p>
+                    <p>Avevo come meta i Paesi Bassi, ma ho scelto di rimanere qui in Italia e ora mi interessa imparare la lingua, perché dopo la lingua anche tutto il resto si può imparare. Lavorerò in un ristorante come cuoco perché sono molto bravo a cucinare, ho imparato dalla mia mamma.</p>
+                </div>
+                
+                <div data-country="ukraine">
+                    <img src="images/flags/ukraine.png" style="width: 120px; display: block; margin: 0 auto 20px auto;">
+                    <p><br>Mi chiamo Marina, ho 27 anni e sono ucraina. Quando ho sentito la prima esplosione vivevamo in un appartamento al 16° piano, sul lato orientale di Kiev, vicino al fiume Niprov. Dopo aver sentito il rumore dei primi bombardamenti, con mio marito abbiamo preso nostra figlia e abbiamo passato la prima notte nel bunker. Ero spaventato a morte quando sono iniziate le esplosioni e l'intera casa tremava. Mio suocero e mia suocera non sono venuti con noi perché hanno insistito sul fatto che non era niente di grave. Durante la notte ho guardato mia figlia e mi sono accorta che era molto spaventata, ha solo 2 anni. Ho seguito il mio intuito, l'istinto. In quel momento ho deciso che all'alba avremmo lasciato Kiev.</p>
+                    <p>Non avrei mai pensato che nella mia vita avrei dovuto vivere una guerra e vedermi costretta a fuggire dal mio paese che amo. Lavoravo in una panetteria vicino a casa, avevamo una vita tranquilla e felice. Adesso mi è caduto il mondo addosso.</p>
+                    <p>Abbiamo viaggiato in treno da Kiev a Leopoli con solo 20 grivnia in tasca (40 centesimi di euro) perché a causa di problemi con il sistema bancario non potevamo prelevare più contanti dalla carta.</p>
+                    <p>Volevamo arrivare in Polonia, ma al confine mio marito non l'hanno lasciato passare, era obbligato ad arruolarsi nell'esercito. Ero disperata, eravamo costretti a separarci, mia figlia piangeva perché non voleva lasciare il suo papà. Ma non avevamo altra scelta. Da qui ho viaggiato in treno fino in Polonia, ci ho messo molto per attraversare il confine, perché nello spazio tra Ucraina e Polonia c'è un orrore: ci sono tre posti di controllo e ogni attraversamento richiede almeno due giorni.</p>
+                    <p>Quando finalmente siamo arrivate in Polonia mi sono sentita al sicuro. Ci hanno dato vestiti caldi e cibo, ci siamo riposate un po' ma sono mai riuscita a dormire bene, dai primi bombardamenti non dormo più bene.</p>
+                    <p>Mia zia vive stabilmente in Italia da molti anni e lavora come badante, quindi ho deciso di raggiungerla così mi può aiutare anche con la gestione di mia figlia. Qui la vita non è semplice come prima, io non posso lavorare perché non ho i soldi per pagare l'asilo nido di mia figlia, e se mi devo occupare di lei come faccio ad andare al lavoro? Mi manca disperatamente mio marito e prego ogni giorno che non gli accada nulla.</p>
+                    <p>Io voglio tornare in Ucraina, voglio crescere lì mia figlia, voglio che rincontri suo papà al più presto.</p>
+                    <p>Non ho perso la speranza, tutto può essere ricostruito.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Mare Modal (square 10) -->
+     <div id="mareModal" class="stereotipi-modal" style="display:none;">
+        <div class="stereotipi-content">
+            <span class="modal-number-in">[ 10 ] Divisione del mare e zone SAR </span>
+             <span class="mare-close">&times;</span>
+            <div id="rotteModal-content">
+                <h2><br></h2>
+                <div id="mare-slideshow" style="width: 100%; max-width: 800px; margin: auto; display: flex; flex-direction: column; align-items: center;">
+                        <img id="mare-slideshow-img" src="images/home-slideshows/10.1.webp" alt="Divisione del mare" style="width: 100%; max-width: 800px; display: block;">
+                    </div>
+                    <div class="stereotipi-buttons">
+                        <button id="mare-zones-btn" class="stereotipi-btn stereotipi-link">Esplora le zone del mare</button>
+                  <a href="storia.html#section-4" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mare Map Modal (square 11) -->
+    <div id="mareMapModal" class="stereotipi-modal">
+        <div class="stereotipi-content">
+             <button id="mare-back-btn" class="back-btn">← Indietro</button>
+            <span class="mare-map-close">&times;</span>
+            <h2 style="color: #333; font-size: 1.5rem; font-weight: 300;margin-top: 0px;margin-bottom: 30px;text-align: center;"><br>Zone SAR (Search and Rescue)<br></h2>
+            
+            <div class="mare-modal-body">
+                
+                <div style="text-align: left; margin-bottom: 8px;">
+                    <span id="mare-map-slider-hint" style="font-size: 1em; color: #33758C; font-style: italic; transition: color 0.3s, opacity 0.3; display: inline-block; margin-bottom: 8px;">↓ Scorri per allontanarti dalla costa</span>
+                </div>
+                <div id="mare-map" style="width: 100%; min-height: 550px; display: flex; flex-direction: row; align-items: stretch; position: relative;">
+                    <div style="width: 70px; display: flex; align-items: flex-start; justify-content: flex-start; position: relative; margin-left: 0; background: #f4f4f4;">
+                        <input type="range" id="mare-map-slider" min="1" max="7" step="1" value="7" orient="vertical" style="writing-mode: bt-lr; appearance: slider-vertical; -webkit-appearance: slider-vertical; width: 40px; height: 450px; margin-right: 10px; margin-top: 24px; direction: rtl;">
+                    </div>
+                    <div id="mare-map-zones" style="flex: 1; display: flex; flex-direction: column; border-radius: 18px; overflow: hidden; background: #fff;">
+                        <div class="mare-map-zone" data-zone="7" style="flex: 1; min-height: 56px; display: flex; align-items: center; justify-content: center; position: relative; background: #ede3c7; border-bottom: 2px dashed #d2c29a;">
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #33758C; text-align: left; margin-left: 0; padding-bottom: 6px; padding-top: 6px; position: static; width: 100%;">Terra</span>
+                                                            </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="6" style="flex: 1; min-height: 56px; display: flex; padding-top:5px; padding-bottom: 10px; align-items: center; justify-content: center; position: relative; background: #DFF2EC; border-bottom: 2px solid #b7e0e5;" >
+                                                        <span class="mare-map-separator-num" style="position: absolute; left: 36px; right: auto; bottom: -10px; font-size: 0.9em; color: #888; background: #fff; padding: 0 6px; border-radius: 8px; z-index: 2; font-style: italic; text-align: left;">12 miglia nautiche dalla costa</span>
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #33758C; text-align: left; margin-left: 0; margin-bottom: 34px; position: static; width: 100%;">Acque interne</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #33758C; text-align: left; margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="5" style="flex: 1; min-height: 56px; display: flex; padding-top:10px; padding-bottom: 3px;align-items: center; justify-content: center; position: relative; background: #b7e0e5; border-bottom: 2px solid #7fc1c9;">
+                                                        <span class="mare-map-separator-num" style="position: absolute; left: 36px; right: auto; bottom: -10px; font-size: 0.95em; color: transparent; background: transparent; padding: 0 6px; border-radius: 8px; z-index: 2; font-style: italic; text-align: right;"></span>
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #33758C; text-align: left; margin-left: 0; margin-bottom: 4px; position: static; width: 100%;">Mare territoriale</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #33758C; text-align: left;margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="4" style="flex: 1; min-height: 56px; display: flex; padding-top:5px; padding-bottom: 10px;align-items: center; justify-content: center; position: relative; background: #7fc1c9; border-bottom: 2px solid #4a9cae;">
+                                                        <span class="mare-map-separator-num" style="position: absolute; left: 36px; right: auto; bottom: -10px; font-size: 0.9em; color: #888; background: #fff; padding: 0 6px; border-radius: 8px; z-index: 2; font-style: italic; text-align: right;">24 miglia nautiche dalla costa</span>
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #fff; text-align: left; margin-left: 0; margin-bottom: 4px; position: static; width: 100%;">Zona contigua</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #fff; text-align: left;margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="3" style="flex: 1; min-height: 56px; display: flex; padding-top:10px; padding-bottom: 3px;align-items: center; justify-content: center; position: relative; background: #4a9cae; border-bottom: 2px solid #33758C;">
+                                                        <span class="mare-map-separator-num" style="position: absolute; left: 36px; right: auto; bottom: -10px; font-size: 0.95em; color: transparent; background: transparent; padding: 0 6px; border-radius: 8px; z-index: 2; font-style: italic; text-align: right;"></span>
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #fff; text-align: left; margin-left: 0; margin-bottom: 4px; position: static; width: 100%;">Zona economica esclusiva</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #fff; text-align: left;margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="2" style="flex: 1; min-height: 56px; display: flex; padding-top:5px; padding-bottom: 10px;align-items: center; justify-content: center; position: relative; background: #33758C; border-bottom: 2px solid #20404a;">
+                                                        <span class="mare-map-separator-num" style="position: absolute; left: 36px; right: auto; bottom: -10px; font-size: 0.9em; color: #888; background: #fff; padding: 0 6px; border-radius: 8px; z-index: 2; font-style: italic; text-align: right;">200 miglia nautiche dalla costa</span>
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #fff; text-align: left; margin-left: 0; margin-bottom: 4px; position: static; width: 100%;">Piattaforma continentale</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #fff; text-align: left;margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                        <div class="mare-map-zone" data-zone="1" style="flex: 1; min-height: 56px; display: flex; padding-top:10px; padding-bottom: 10px;align-items: center; justify-content: center; position: relative; background: #20404a;">
+                                                        <div style="display: flex; flex-direction: column; align-items: flex-start; width: 90%;">
+                                                            <span class="mare-map-zone-label" style="display: none; font-size: 1.3em; font-weight: 600; color: #fff; text-align: left; margin-left: 0; margin-bottom: 4px; position: static; width: 100%;">Acque internazionali</span>
+                                                            <span class="mare-map-zone-desc" style="display: none; font-size: 1em; color: #fff; text-align: left; margin-left: 0; margin-right: 0; width: 100%;"></span>
+                                                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 38px;">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Richiesta Asilo Modal (square 12) -->
+    <div id="richiestaAsiloModal" class="stereotipi-modal">
+                <div class="stereotipi-content richiesta-asilo-timeline-wrap">
+                        <span class="richiesta-asilo-close">&times;</span>
+                        <h2 class="richiesta-asilo-timeline-title">Il percorso per chiedere asilo e protezione</h2>
+                        <div class="richiesta-asilo-timeline">
+                                <div style="display: flex; flex-direction: row; align-items: flex-start;">
+                                    <div style="display: flex; flex-direction: column; align-items: flex-end; margin-right: 16px;">
+                                        <button class="timeline-arrow timeline-arrow-up" id="timeline-arrow-up" aria-label="Vai su" style="margin-bottom: 8px;">▲</button>
+                                        <button class="timeline-arrow timeline-arrow-down" id="timeline-arrow-down" aria-label="Vai giù">▼</button>
+                                    </div>
+                                    <div class="timeline-steps" id="timeline-steps" style="flex: 1;">
+                                        <!-- Steps generati da JS -->
+                                    </div>
+                                </div>
+                        </div>
+                        <div style="margin-top: 18px; text-align: center;">
+                                <a href="storia.html#section-5" class="stereotipi-btn stereotipi-link" style="margin: 0 auto;">Scopri di più</a>
+                        </div>
+                </div>
+    </div>
+
+  <!-- Protezione maschere Modal (square 13) -->
+            <div id="protezioniSlideshowModal" class="vertical-modal">
+                <div class="vertical-content">
+                    <span class="modal-number-in">[ 11 ] Richiesta di asilo e tipologie di protezione </span>
+                    <span class="protezioni-slideshow-close">&times;</span>
+                    
+                    <div id="protezioni-slideshow" style="width: 100%; max-width: 600px; margin: 40px auto; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 74px;">
+                        <img id="protezioni-slideshow-img" src="images/maschere/IMG_1080.webp" alt="Maschere" style="width: 100%; max-width: 400px; display: block; border-radius: 12px; flex-shrink: 0;">
+                        <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 16px; flex: 1 1 440px; min-width: 260px; max-width: 540px;">
+                            <h2 style="margin-top: 0px; margin-bottom: 20px; text-align: center; width: 100%;">Il percorso per chiedere protezione</h2>
+                            <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+                                <div class="stereotipi-buttons" id="protezioni-slideshow-btns" style="text-align: center; margin: 0; flex-direction: column; display: flex; gap: 15px; align-items: center; width: 100%;">
+                                    <button id="vedi-percorso-btn" class="stereotipi-btn stereotipi-link" type="button">Esplora le tappe</button>
+                                    <a href="storia.html#section-5" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="percorso-content" style="display:none; margin-top: 18px; text-align: left;">
+                        <h2 class="richiesta-asilo-timeline-title">Il percorso per chiedere asilo e protezione</h2>
+                        <div class="richiesta-asilo-timeline">
+                            <div style="display: flex; flex-direction: row; align-items: flex-start;">
+                                <div style="display: flex; flex-direction: column; align-items: flex-end; margin-right: 16px;">
+                                    <button class="timeline-arrow timeline-arrow-up" id="timeline-arrow-up-inline" aria-label="Vai su" style="margin-bottom: 8px;">▲</button>
+                                    <button class="timeline-arrow timeline-arrow-down" id="timeline-arrow-down-inline" aria-label="Vai giù">▼</button>
+                                </div>
+                                <div class="timeline-steps" id="timeline-steps-inline" style="flex: 1;">
+                                    <!-- Steps generati da JS o statici qui -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Accoglienza Slideshow Modal (square 14) -->
+        
+             
+ <!-- Accoglienza Slideshow Modal -->
+    <div id="accoglienzaSlideshowModal" class="stereotipi-modal" style="display:none;">
+        <div class="stereotipi-content">
+            <span class="modal-number-in">[ 12 ] Il sistema di accoglienza in Italia </span>
+             <span class="accoglienza-slideshow-close">&times;</span>
+             <div id="rotteModal-content">
+                <h2><br></h2>
+                <div id="accoglienza-slideshow" style="width: 100%; max-width: 800px; margin: auto; display: flex; flex-direction: column; align-items: center;">
+                        <img id="accoglienza-slideshow-img" src="images/home-slideshows/12.1.webp" alt="Il sistema di accoglienza in Italia" style="width: 100%; max-width: 800px; display: block;">
+                    </div>
+                    <div class="stereotipi-buttons">
+                  <a href="storia.html#section-6" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                 <!-- Modal Mappe Italia (square 15) -->
+                <div id="modalMap" class="stereotipi-modal" style="display:none;">
+                        <div class="testimonianze-content">
+                            <span class="modal-number-in">[ 13 ] Il sistema di accoglienza in Italia </span>
+                                <span class="modal-map-close">&times;</span>
+                                <div id="modalMap-content">
+                                    <h2 id="map-modal-title"><br>Mappa dell'Italia</h2>
+                                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 16px; width: 100%; max-width: 900px; margin: 30px auto 0 auto;">
+                                        <div id="map-legend" style="flex: 0 0 90px; min-width: 60px; background: #f7fafd; border-radius: 10px; box-shadow: 0 2px 8px #0001; padding: 8px 6px; font-size: 0.8rem; margin-right: 0;"></div>
+                                        <div id="map-slide-container" style="flex: 1 1 640px; min-width: 0; aspect-ratio: 4/3; overflow: hidden; position: relative; height: 400px;">
+                                            <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=192gSAsjVZanVHG1lSnr-Mq6upNCtIzA&ehbc=2E312F&noprof=1" width="100%" height="480" style="border:0; border-radius: 12px; position: absolute; top: -60px; left: 0; min-height: 350px; transition: opacity 0.3s;" allowfullscreen loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div style="text-align:center; margin-top: 12px;">
+                                        <button id="map-prev-btn" style="margin-right: 16px; padding: 6px 18px; border-radius: 8px; border: none; background: #33758C; color: #fff; font-size: 1rem; cursor: pointer;">&lt;</button>
+                                        <button id="map-next-btn" style="padding: 6px 18px; border-radius: 8px; border: none; background: #33758C; color: #fff; font-size: 1rem; cursor: pointer;">&gt;</button>
+                                    </div>
+                                    <div class="stereotipi-buttons" style="text-align: center; margin-top: 24px;">
+                                       
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                 <!-- Definizione slide mappa (modificabile da HTML) -->
+                <div style="display:none;">
+                    <div class="map-slide-data" 
+                        data-title="Mappa dell'Italia" 
+                        data-src="https://www.google.com/maps/d/u/0/embed?mid=192gSAsjVZanVHG1lSnr-Mq6upNCtIzA&ehbc=2E312F&noprof=1"
+                        data-legend='[{"color":"#e74c3c","label":"Valore 1 (placeholder)"},{"color":"#2980b9","label":"Valore 2 (placeholder)"}]'>
+                    </div>
+                    <div class="map-slide-data" 
+                        data-title="Mappa accoglienza in Italia" 
+                        data-src="https://www.google.com/maps/d/u/0/embed?mid=1Qn8uwZILGkDwgrJvXKWzh-6gsHD8QlE&ehbc=2E312F&noprof=1"
+                        data-legend='[{"color":"#27ae60","label":"Valore A (placeholder)"},{"color":"#f1c40f","label":"Valore B (placeholder)"},{"color":"#8e44ad","label":"Valore C (placeholder)"}]'>
+                    </div>
+                </div>
+
+    <!-- Professionisti accoglienza Modal (square 16)-->
+    <div id="modal16" class="stereotipi-modal">
+        <div class="stereotipi-content">
+            <div class="testimonianze-header-switch" style="margin-top: -20px;">
+                <span class="modal-number-in" id="modal16-modal-number">[ 14 ] I professionisti dell'accoglienza </span>
+                <button class="back-btn" id="modal16-back-btn" style="display:none;">← Indietro</button>
+            </div>
+            <span class="professionisti-close">&times;</span>
+            <h2 style="margin-top: 20 px; font-weight: 300;">Professionisti dell'accoglienza</h2>
+            <div class="vertical-content" style="margin-bottom: 0px;">
+                <div class="orbit-schema" style="display: flex; flex-direction: column; align-items: center; min-width: 180px; margin-bottom: 124px; height: 340px; justify-content: center;">
+                    <div class="orbit-center-text" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 1.3em; font-weight: 600; color: #33758C; text-align: center; z-index: 2; width: 220px; pointer-events: none;">Un insieme di competenze diverse</div>
+                    <div class="orbit-container">
+                        <div class="orbit-ball orbit-ball-1" data-role="Mediatore culturale" data-desc="Favorisce la comunicazione tra persone di culture diverse."></div>
+                        <div class="orbit-ball orbit-ball-2" data-role="Assistente sociale" data-desc="Supporta le persone nei percorsi di integrazione."></div>
+                        <div class="orbit-ball orbit-ball-3" data-role="Educatore" data-desc="Promuove l'autonomia e l'inclusione sociale."></div>
+                        <div class="orbit-ball orbit-ball-4" data-role="Operatore legale" data-desc="Fornisce assistenza su diritti e procedure legali."></div>
+                        <div class="orbit-ball orbit-ball-5" data-role="Psicologo" data-desc="Offre supporto psicologico e ascolto."></div>
+                        <div class="orbit-role-info" id="orbit-role-info" style="display:none; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); background:#fff; border-radius:18px; box-shadow:0 2px 12px rgba(0,0,0,0.13); padding:32px 28px 24px 28px; z-index:10; min-width:220px; max-width:260px; text-align:center;">
+                            <div id="orbit-role-title" style="font-size:1.2em; font-weight:700; color:#33758C; margin-bottom:10px;"></div>
+                            <div id="orbit-role-desc" style="font-size:1em; color:#444; margin-bottom:18px;"></div>
+                            <button id="orbit-role-close" class="stereotipi-btn stereotipi-link" style="padding: 8px 18px;">Chiudi</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal16-btn-row" style="display: flex; flex-direction: row; gap: 60px; justify-content: center; align-items: center; margin-bottom: 0px;">
+                    <button id="modal16-stories-btn" class="stereotipi-btn stereotipi-link" style="margin: 0;">Leggi le storie</button>
+                    <a href="storia.html#section-7" class="stereotipi-btn stereotipi-link" style="margin: 0;">Scopri di più</a>
+                </div>
+                <div id="modal16-stories-screen" style="display:none; flex-direction:column; align-items:center; justify-content:center; min-height:180px; margin-top:18px;">
+                    <div class="modal16-stories-intro">Una selezione di storie che raccontano il lavoro quotidiano dei professionisti dell’accoglienza e il suo impatto sulla vita delle persone</div>
+                    <div class="modal16-stories-btns">
+                        <button class="storie-btn" style="width: 320px;" data-story="1">Storia 1 – La famiglia di B.I.</button>
+                        <button class="storie-btn" style="width: 320px;" data-story="2">Storia 2 – Il percorso di A.</button>
+                        <button class="storie-btn" style="width: 320px;" data-story="3">Storia 3 – Il caso di P.</button>
+                        <button class="storie-btn" style="width: 320px;" data-story="4">Storia 4 – Il viaggio di Y.</button>
+                    </div>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 180px;"></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Professionisti Accoglienza Modal (Square 17) -->
+        <div id="modal17" class="stereotipi-modal" style="display:none;">
+            <div class="stereotipi-content">
+                <span class="link-professionisti-close">&times;</span>
+                <div id="modal17-content">
+                    <!-- Home: bottoni professionisti -->
+                    <div id="modal17-home">
+                        <h2>Scopri i professionisti</h2>
+                        <div class="professionisti-buttons" style="display: flex; flex-direction: row; gap: 18px; justify-content: center; align-items: center; margin: 30px 0;">
+                            <button id="btn-mediatore" style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="images/gif/tasto1.png" alt="Mediatori culturali" style="height: 180px; width: auto; display: block;">
+                            </button>
+                            <button id="btn-podcast" style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="images/gif/tasto2.png" alt="Operatori sociali" style="height: 180px; width: auto; display: block;">
+                            </button>
+                            <button id="btn-armentalhealth" style="background: none; border: none; padding: 0; cursor: pointer;">
+                                <img src="images/gif/tasto3.png" alt="Avvocati e legali" style="height: 180px; width: auto; display: block;">
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Sezione Mediatore Culturale -->
+                    <div id="modal17-mediatore" style="display:none;">
+                        <h2>Il mediatore culturale</h2>
+                        <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -10px; text-align: center;">fumetto a cura degli studenti della classe y della scuola x</div>
+                        <img src="images/multimedia/fiori.png" alt="Fumetto mediatore culturale" style="max-width: 100%; height: auto; margin: 30px auto; display: block;">
+                        <div style="text-align: left; margin-top: 30px;">
+                            <button id="btn-back-mediatore" class="stereotipi-btn">Torna indietro</button>
+                        </div>
+                    </div>
+                    <!-- Sezione Podcast -->
+                    <div id="modal17-podcast" style="display:none;">
+                        <h2>Ferite Invisibili</h2>
+                        <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -10px; text-align: center;">podcast a cura degli studenti della classe y della scuola x</div>
+                        <div style="max-width: 500px; margin: 30px auto 0 auto;">
+                            <div style="margin-bottom: 18px;">
+                                <strong>Puntata 1</strong><br>
+                                <audio controls style="width: 100%; margin-top: 4px;">
+                                    <source src="images/multimedia/ferite-invisibili-1.mp3" type="audio/mpeg">
+                                    Il tuo browser non supporta l'audio.
+                                </audio>
+                            </div>
+                            <div style="margin-bottom: 18px;">
+                                <strong>Puntata 2</strong><br>
+                                <audio controls style="width: 100%; margin-top: 4px;">
+                                    <source src="images/multimedia/ferite-invisibili-2.mp3" type="audio/mpeg">
+                                    Il tuo browser non supporta l'audio.
+                                </audio>
+                            </div>
+                            <div style="margin-bottom: 18px;">
+                                <strong>Puntata 3</strong><br>
+                                <audio controls style="width: 100%; margin-top: 4px;">
+                                    <source src="images/multimedia/ferite-invisibili-3.mp3" type="audio/mpeg">
+                                    Il tuo browser non supporta l'audio.
+                                </audio>
+                            </div>
+                        </div>
+                        <div style="text-align: left; margin-top: 30px;">
+                            <button id="btn-back-podcast" class="stereotipi-btn">Torna indietro</button>
+                        </div>
+                    </div>
+                    <!-- Sezione Armentalhealth -->
+                    <div id="modal17-armentalhealth" style="display:none;">
+                        <h2>Armentalhealth</h2>
+                        <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -10px; text-align: center;">Presentazione a cura degli studenti della classe y della scuola x</div>
+                        <div style="max-width: 600px; margin: 30px auto 0 auto; aspect-ratio: 1/1; position: relative;">
+                            <iframe src="images/multimedia/armentalhealth.pdf" style="width: 100%; height: 100%; aspect-ratio: 1/1; border: none; border-radius: 8px; box-shadow: 0 2px 8px #0001; position: absolute; top: 0; left: 0;" allowfullscreen></iframe>
+                            <div style="padding-top: 100%;"></div>
+                        </div>
+                        <div style="text-align: left; margin-top: 30px;">
+                            <button id="btn-back-armentalhealth" class="stereotipi-btn">Torna indietro</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <!-- MSNA Modal (square 18) -->
+                    <div id="msnaModal" class="testimonianze-modal">
+                        <div class="testimonianze-content">
+                            <span class="msna-close">&times;</span>
+                            <h2>MSNA</h2>
+                            <div style="margin: 30px 0; text-align: center; font-size: 1.15em; line-height: 1.5;">
+                                <strong>LA TUTELA DEL MINORE STRANIERO NON ACCOMPAGNATO (MSNA)</strong><br><br>
+                                PROTECTION OF UNACCOMPANIED FOREIGN MINORS<br><br>
+                                PROTECTION DES MINEURS ÉTRANGERS NON ACCOMPAGNÉS (MENA)<br><br>
+                                ساتھ نہ جانے والے غیر ملکی نابالغوں کا تحفظ<br><br>
+                                حماية القصر غير المصحوبين
+                            </div>
+                            <div class="stereotipi-buttons" style="text-align: center; display: flex; gap: 16px; justify-content: center;">
+                                <a href="https://www.meltingpot.org/2024/03/informazioni-senza-barriere-la-tutela-del-minore-straniero-non-accompagnato-msna/" target="_blank" class="stereotipi-btn stereotipi-link">Ascolta il podcast</a>
+                                <a href="storia.html#section-8" class="stereotipi-btn stereotipi-link">Scopri di più</a>
+                            </div>
+                        </div>
+                    </div>
+
+        <!-- MSNA di Monza Modal (square 19) -->
+        <div id="msnaMonzaModal" class="testimonianze-modal">
+            <div class="testimonianze-content">
+                <span class="msna-monza-close">&times;</span>
+                <h2 style="margin-top: 0px; margin-bottom: 0px;">MSNA di Monza</h2>
+                <div id="msna-monza-slideshow" style="width: 100%; max-width: 600px; margin: 30px auto; display: flex; flex-direction: column; align-items: center;">
+                    <img id="msna-monza-img" src="images/dixit/1.webp" alt="Dixit" style="width: 100%; max-width: 400px; display: block; border-radius: 12px; box-shadow: 0 2px 8px #0002;">
+                        <div class="stereotipi-buttons" style="text-align: center; margin-top: 24px;">
+                            <a href="about.html" class="stereotipi-btn stereotipi-link">vieni a conoscerci</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- GSAP CDN -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+ 
+</body>
+</html>
