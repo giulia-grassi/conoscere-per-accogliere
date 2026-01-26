@@ -645,7 +645,7 @@ video.img-home {
     min-height: 420px;
 }
 .timeline-arrow {
-    background: #e3f2fd;
+    
     border: none;
     border-radius: 50%;
     width: 38px;
@@ -654,11 +654,11 @@ video.img-home {
     color: #33758C;
     margin: 6px 0;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
-    box-shadow: 0 1px 4px rgba(51,117,140,0.08);
+    
+    
 }
 .timeline-arrow:active, .timeline-arrow:focus {
-    background: #b7e0e5;
+    
     outline: none;
 }
 .timeline-steps {
@@ -679,20 +679,20 @@ video.img-home {
 .timeline-step .timeline-dot {
     width: 18px;
     height: 18px;
-    background: #b7e0e5;
+    background: #f4f4f4;
     border-radius: 50%;
-    border: 3px solid #33758C;
+    border: 1px solid #33758C;
     margin: 0 18px 0 0;
     position: relative;
     z-index: 2;
     transition: background 0.2s, border 0.2s;
 }
 .timeline-step.active .timeline-dot {
-    background: #33758C;
-    border: 3px solid #4a9cae;
+    background: #629cb0;
+    border: 1px solid #333;
 }
 .timeline-step .timeline-label {
-    font-weight: 600;
+    font-weight: 400;
     color: #33758C;
     font-size: 1.08em;
     margin-top: 0;
@@ -707,15 +707,17 @@ video.img-home {
 }
 .timeline-step.active .timeline-label {
     color: #20404a;
+    font-weight: 600;
 }
 .timeline-step .timeline-content {
-    background: #f8f6f1;
-    border-radius: 12px;
+    
+    border-radius: 8px;
+     border: 1px solid #cacaca;
     margin: 10px 0 10px 0;
-    padding: 16px 18px 12px 18px;
-    color: #20404a;
+    padding: 15px 18px 15px 18px;
+    color: #6c6c6c;
     font-size: 1em;
-    box-shadow: 0 1px 6px rgba(51,117,140,0.07);
+    
     width: 340px;
     min-width: 340px;
     max-width: 340px;

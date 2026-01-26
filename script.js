@@ -1364,12 +1364,12 @@ const timelineSteps = [
   {
     id: 'step1',
     title: 'Arrivare',
-    content: `<ul><li>Per chiedere asilo bisogna essere fisicamente nel paese.</li><li>L’asilo si chiede dentro lo Stato</li><li>Entrare regolarmente non è sempre possibile</li><li>Visti e ingressi legali sono limitati</li></ul>`
+    content: `<ul><li>L’asilo si chiede dentro lo Stato: per chiedere asilo bisogna trovarsi fisicamente nel paese.</li><li>Entrare regolarmente non è sempre possibile</li><li>Visti e ingressi legali sono limitati</li></ul>`
   },
   {
     id: 'step2',
     title: 'Chiedere protezione',
-    content: `<ul><li>Il percorso inizia quando una persona dice: “Ho bisogno di protezione”.</li><li>La volontà può essere manifestata alla frontiera o sul territorio</li><li>Da questo momento la persona entra nella procedura di asilo</li></ul>`
+    content: `<ul><li>Il percorso inizia quando una persona manifesta la volontà di ricevere protezione.</li><li>La volontà può essere manifestata alla frontiera o sul territorio</li><li>Da questo momento la persona entra nella procedura di asilo</li></ul>`
   },
   {
     id: 'step3',
