@@ -41,91 +41,74 @@
         <img src="images/CCB-logo.webp" alt="Logo Consorzio Comunità Brianza" style="max-width: 240px; height: auto; display: block; margin-bottom: 12px; margin-left: 0;" />
     </div>
 
-            <div class="intro-box" style="background: #f7f7f7; border-radius: 16px; padding: 32px 34px; margin: 0px 0 40px 0; max-width: 100%; margin-left: auto; margin-right: auto; font-size: 1.15em;">
-                <p>Il Consorzio Comunità Brianza (CCB) è un’impresa sociale attiva sul territorio di Monza e Brianza che progetta e realizza interventi educativi e di inclusione sociale, con una particolare attenzione ai Minori Stranieri Non Accompagnati. Attraverso percorsi di accoglienza, accompagnamento educativo e laboratori espressivi, CCB lavora per sostenere i giovani nel riconoscimento della propria identità, nella costruzione del futuro e nella relazione con la comunità di accoglienza. 
-                    <br><br> Di seguito scopri i progetti realizzati nel 2025 dai ragazzi, all’interno di percorsi educativi e artistici promossi da CCB in collaborazione con scuole, educatori e realtà del territorio.
-                </p>
+             <p><b>Conoscere per Accogliere</b> è un progetto che raccoglie e mette in rete le attività educative e di inclusione sociale promosse dal Consorzio Comunità Brianza (CCB) sul territorio di Monza e Brianza.
+
+<br><br>È un progetto ampio, da cui nascono laboratori, incontri e percorsi condivisi che coinvolgono i Minori Stranieri Non Accompagnati accolti da CCB e i loro coetanei del territorio, con l’obiettivo di creare occasioni di conoscenza reciproca, dialogo e partecipazione alla vita della comunità.
+
+Attraverso esperienze educative ed espressive, ragazze e ragazzi vengono accompagnati nella scoperta di sé, nella costruzione del proprio futuro e nella relazione con il territorio che li accoglie.
+<br><br>Nel 2025 il progetto ha preso forma attraverso diversi percorsi, realizzati insieme a scuole e realtà del territorio:
+</p>
                 <div style="margin: 18px 0 28px 0; text-align: left;">
-                    <ul style="list-style: none; padding: 0; margin: 0 0 0 24px; font-size: 0.92em; color: #888;">
+                    <ul style="list-style: none; padding: 0; margin: 0 0 0 24px; font-size: 1em; color: #888;">
                         <li style="margin-bottom: 2px;"><span style="margin-right:6px;">#</span><a href="#sogno-cassetto" style="color:#888; text-decoration: none;">Un sogno nel CASsetto</a></li>
-                        <li style="margin-bottom: 2px;"><span style="margin-right:6px;">#</span><a href="#conoscere-accogliere" style="color:#888; text-decoration: none;">Conoscere per accogliere</a></li>
+                        <li style="margin-bottom: 2px;"><span style="margin-right:6px;">#</span><a href="#conoscere-accogliere" style="color:#888; text-decoration: none;">Ragazzi in viaggio</a></li>
+                        <li style="margin-bottom: 2px;"><span style="margin-right:6px;">#</span><a href="#carro" style="color:#888; text-decoration: none;">CCB x Il Carro</a></li>
                         <li style="margin-bottom: 2px;"><span style="margin-right:6px;">#</span><a href="#io-sono-saro" style="color:#888; text-decoration: none;">Io sono e sarò</a></li>
                         <li><span style="margin-right:6px;">#</span><a href="#migrazioni" style="color:#888; text-decoration: none;">MigrAzioni</a></li>
                     </ul>
                 </div>
-                </div>
           
-            
-            
-            
-            <!-- Chi siamo Section -->
-           <div style="padding: 70px;"></div> <h1 id="sogno-cassetto">Un sogno nel CASsetto</h1>
+           
+            <!-- Slideshow FOTO -->
+            <div id="foto-slideshow" style="width: 100%; aspect-ratio: 3/2; margin: 0 auto 40px auto; position: relative; overflow: hidden; border-radius: 8px; padding: 0;">
+                <img id="foto-slideshow-img" src="images/foto/1.webp" alt="Slideshow foto" style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 8px; position: absolute; top: 0; left: 0;">
+                <div id="foto-slideshow-gradient" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; pointer-events: none; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.28) 60%, rgba(0,0,0,0.0) 100%); border-radius: 0 0 8px 8px; opacity: 0; transition: opacity 0.22s;"></div>
+                <div id="foto-slideshow-controls" style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 2; opacity: 0; pointer-events: none; transition: opacity 0.2s;">
+                    <button id="foto-prev" aria-label="Precedente" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M14.5 19L7.5 11L14.5 3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <button id="foto-pause" aria-label="Pausa" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; border-radius: 6px; color: #fff;">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/><rect x="12.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/></svg>
+                    </button>
+                    <button id="foto-play" aria-label="Riprendi" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: none; border-radius: 6px; color: #fff;">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="5,3 17,10 5,17" fill="#fff"/></svg>
+                    </button>
+                    <button id="foto-next" aria-label="Successiva" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M7.5 3L14.5 11L7.5 19" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div style="padding: 70px;"></div> <h1 id="sogno-cassetto">Un sogno nel CASsetto</h1>
             <p>Questo percorso è stato pensato per i Minori Stranieri Non Accompagnati accolti nel SAI di Monza e nel CAS di via XX Settembre, con l’obiettivo di creare uno spazio di confronto e arricchimento tra culture e paesi di provenienza (Gambia, Burkina Faso, Guinea Conakry, Tunisia, Camerun) e il paese di accoglienza (Italia).
 
 <br><br>L’obiettivo del percorso è riflettere su sé stessi e sulla propria storia nelle diverse fasi della vita, connettendola al presente e ai progetti futuri, attraverso attività ludico-ricreative e riflessive.
 
 Grazie a questo percorso, i ragazzi hanno acquisito una maggiore consapevolezza delle proprie risorse personali e una più profonda capacità di riflessione sul proprio percorso migratorio, strumenti fondamentali per affrontare in autonomia la quotidianità e la socializzazione nel paese di accoglienza.
 </p>
-<h2>I – Chi sono? Mi presento</h2>
-<p>"Sei arrivato in un Paese straniero dove non conosci nessuno e nessuno ti conosce, tutti parlano un'altra lingua ed è un mondo nuovo... presentati e fatti conoscere attraverso la tua maschera"
+<h2 style="margin-top: 100px;">I – Chi sono? Mi presento</h2>
+<p><i> Sei arrivato in un Paese straniero dove non conosci nessuno e nessuno ti conosce, tutti parlano un'altra lingua ed è un mondo nuovo... Presentati e fatti conoscere attraverso la tua maschera.</i>
 <br><br>Attraverso uno strumento non verbale e metaforico della maschera, i ragazzi si sono impegnati rappresentarsi e poi presentarsi, rimettendosi in contatto con la loro identità e appartenenza culturale e famigliare.
 Grazie a questo percorso, i ragazzi hanno acquisito una maggiore consapevolezza delle proprie risorse personali e una più profonda capacità di riflessione sul proprio percorso migratorio, strumenti fondamentali per affrontare in autonomia la quotidianità e la socializzazione nel Paese di accoglienza.
 </p>
 
 <!-- Galleria Maschere -->
-<style>
-    .maschere-gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 20px;
-        width: 100%;
-        margin: 32px 0;
-        align-items: start;
-    }
-    .maschere-gallery-grid img {
-        width: 100%;
-        height: auto;
-        aspect-ratio: auto;
-        object-fit: contain;
-        border-radius: 12px;
-        display: block;
-        background: #f7f7f7;
-        max-height: 420px;
-    }
-    .maschere-gallery-grid .main-img {
-        grid-row: 1 / span 2;
-        grid-column: 1 / span 2;
-        max-height: 100%;
-    }
-    @media (max-width: 700px) {
-        .maschere-gallery-grid {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(5, auto);
-        }
-        .maschere-gallery-grid .main-img {
-            grid-row: 1 / span 2;
-            grid-column: 1 / span 2;
-        }
-    }
-</style>
 <div class="maschere-gallery-grid">
     <div class="gallery-item dixit-item" style="grid-row: 1 / span 2; grid-column: 1 / span 2; position: relative;">
-        <img src="images/maschere/IMG_1080.webp" alt="Maschera 1080" class="main-img" />
+        <img src="images/maschere/IMG_1080.webp" alt="" class="main-img" />
         <div class="dixit-overlay">
             <p class="dixit-text">"La maschera rappresenta il mio Paese e le mie radici. La bandiera del Gambia è composta dal colore rosso, che simboleggia il sole e la savana, il colore blu del fiume Gambia, mentre il verde rappresenta la terra e le foreste del mio Paese. Le strisce bianche simboleggiano la pace."</p>
         </div>
     </div>
-    <img src="images/maschere/IMG_1083.webp" alt="Maschera 1083" style="grid-row: 1; grid-column: 3;" />
-    <img src="images/maschere/IMG_1084.webp" alt="Maschera 1084" style="grid-row: 1; grid-column: 4;" />
-    <img src="images/maschere/IMG_1086.webp" alt="Maschera 1086" style="grid-row: 2; grid-column: 3;" />
-    <img src="images/maschere/IMG_1090.webp" alt="Maschera 1090" style="grid-row: 2; grid-column: 4;" />
+    <img src="images/maschere/IMG_1083.webp" alt="" style="grid-row: 1; grid-column: 3;" />
+    <img src="images/maschere/IMG_1084.webp" alt="" style="grid-row: 1; grid-column: 4;" />
+    <img src="images/maschere/IMG_1086.webp" alt="" style="grid-row: 2; grid-column: 3;" />
+    <img src="images/maschere/IMG_1090.webp" alt="" style="grid-row: 2; grid-column: 4;" />
 </div>
-<h2>II – Dove sono finito?</h2>
+<h2 style="margin-top: 100px;">II – Dove sono finito?</h2>
 
 <p>Nel secondo incontro i ragazzi sono chiamati a collocarsi fisicamente e geograficamente in Italia e nel mondo, portando dei ricordi del paese di origine e del loro arrivo in Italia e desideri sul futuro.</p>
 <div style="display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; margin: 32px 0 0 0;">
-    <img src="images/maschere/cartina.png" alt="Cartina" class="main-img" style="width: 640px; max-width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; border-radius: 12px; display: block; max-height: 840px; margin: 0; background: none; flex-shrink: 0;" />
+    <img src="images/maschere/cartina.webp" alt="Cartina" class="main-img" style="width: 640px; max-width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; border-radius: 12px; display: block; max-height: 840px; margin: 0; background: none; flex-shrink: 0;" />
     <div style="flex: 1; min-width: 220px; padding-top: 120px;">
         <p style="margin-top:0; margin-bottom: 0.7em;"><strong>B:</strong> "Del Gambia ricordo gli alberi di mango e il pozzo dove andavamo a prendere l'acqua. Quando sono arrivato in Italia mi sono stupito perché c'erano tante macchine per strada. Nel futuro vorrei realizzare il mio sogno di giocare a calcio".</p>
         <p style="margin-top:0;"><strong>F:</strong> "Il mio ricordo della Tunisia sono gli alberi di ulivo e di frutta. Poi ricordo il viaggio in mare verso l'Italia. Io sono arrivato, ma l'altra barca vicino a noi è affondata. Dopo l'arrivo a Lampedusa, mi hanno mandato in un centro di accoglienza a Catania".</p>
@@ -133,9 +116,9 @@ Grazie a questo percorso, i ragazzi hanno acquisito una maggiore consapevolezza 
 </div>
 
 
-<h2>III – Mi metto in gioco</h2>
+<h2 style="margin-top: 100px;">III – Mi metto in gioco</h2>
 <p>Nel terzo incontro il gruppo ha avviato una riflessione a partire dallo stato d'animo dello spaesamento e della confusione connessi alla migrazione affrontata da soli e da molto giovani e all'approccio con una nuova cultura e un nuovo mondo.
-Le carte Dixit vengono utilizzate allo scopo di facilitare la narrazione di vissuti ad un livello più profondo, che vada oltre le parole e possa far emergere parti più inconsce e inconsapevoli.
+<br> <br>Le carte Dixit vengono utilizzate allo scopo di facilitare la narrazione di vissuti ad un livello più profondo, che vada oltre le parole e possa far emergere parti più inconsce e inconsapevoli.
 </p>
 <div class="gallery dixit-gallery dixit-preview" id="dixit-preview-gallery">
     <div class="gallery-item dixit-item">
@@ -205,229 +188,628 @@ ha iniziato a entrare..."</p>
 </div>
             
             <!-- Gallery Preview -->
-            <div style="padding: 100px;"></div><h1 id="conoscere-accogliere">Conoscere per accogliere</h1>
+            <div style="padding: 100px;"></div><h1 id="conoscere-accogliere">Ragazzi in viaggio</h1>
             <div style="width: 100%; margin: 40px 0;">
-                <img src="images/mostra/mostra.webp" alt="Silent Book Project" style="width: 100%; height: auto; display: block; border-radius: 8px;">
+                <div id="gallery-slideshow" style="width: 100%; aspect-ratio: 3/2; margin: 0 auto; position: relative; overflow: hidden; border-radius: 8px; padding: 0;">
+                    <img id="gallery-slideshow-img" src="images/gallery/barconi-1.webp" alt="Slideshow gallery" style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 8px; position: absolute; top: 0; left: 0;">
+                    <div id="gallery-slideshow-gradient" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; pointer-events: none; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.28) 60%, rgba(0,0,0,0.0) 100%); border-radius: 0 0 8px 8px; opacity: 0; transition: opacity 0.22s;"></div>
+                    <div id="gallery-slideshow-controls" style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 2; opacity: 0; pointer-events: none; transition: opacity 0.2s;">
+                        <style>
+                            #gallery-slideshow:hover #gallery-slideshow-controls {
+                                opacity: 1 !important;
+                                pointer-events: auto !important;
+                            }
+                            #gallery-slideshow:hover #gallery-slideshow-gradient {
+                                opacity: 1 !important;
+                            }
+                        </style>
+                        <button id="gallery-prev" aria-label="Precedente" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M14.5 19L7.5 11L14.5 3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                        <button id="gallery-pause" aria-label="Pausa" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; border-radius: 6px; color: #fff;">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/><rect x="12.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/></svg>
+                        </button>
+                        <button id="gallery-play" aria-label="Riprendi" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: none; border-radius: 6px; color: #fff;">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="5,3 17,10 5,17" fill="#fff"/></svg>
+                        </button>
+                        <button id="gallery-next" aria-label="Successiva" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M7.5 3L14.5 11L7.5 19" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </div>
+                </div>
             </div>
+            <script>
+            // Slideshow automatico immagini in images/foto/ con controlli manuali
+            // Slideshow automatico immagini in images/gallery/ con controlli manuali
+
+            // --- Enable lightbox for maschere-gallery-grid images ---
+            document.addEventListener('DOMContentLoaded', function() {
+                const maschereGrid = document.querySelector('.maschere-gallery-grid');
+                if (maschereGrid) {
+                    const imgs = maschereGrid.querySelectorAll('img');
+                    const imgSrcs = Array.from(imgs).map(img => img.src);
+                    imgs.forEach((img, idx) => {
+                        img.style.cursor = 'pointer';
+                        img.addEventListener('click', function(e) {
+                            // Prepare images for lightbox navigation
+                            const fakeImages = Array.from(imgs).map(i => {
+                                const fake = document.createElement('img');
+                                fake.src = i.src;
+                                fake.dataset.caption = i.alt || '';
+                                return fake;
+                            });
+                            if (typeof window !== 'undefined') {
+                                window.imagesInLightbox = fakeImages;
+                                window.currentImageIndex = idx;
+                                if (typeof imagesInLightbox !== 'undefined') imagesInLightbox = window.imagesInLightbox;
+                                if (typeof currentImageIndex !== 'undefined') currentImageIndex = window.currentImageIndex;
+                            }
+                            if (typeof window.openLightbox === 'function') {
+                                window.openLightbox(img.src, img.alt || '');
+                            }
+                        });
+                    });
+                    // Also enable click on gallery-item dixit-item div itself
+                    const galleryItemDiv = maschereGrid.querySelector('.gallery-item.dixit-item');
+                    if (galleryItemDiv) {
+                        galleryItemDiv.style.cursor = 'pointer';
+                        galleryItemDiv.addEventListener('click', function(e) {
+                            // Find the main image inside the div
+                            const mainImg = galleryItemDiv.querySelector('img');
+                            if (!mainImg) return;
+                            const idx = Array.from(imgs).indexOf(mainImg);
+                            if (idx === -1) return;
+                            const fakeImages = Array.from(imgs).map(i => {
+                                const fake = document.createElement('img');
+                                fake.src = i.src;
+                                fake.dataset.caption = i.alt || '';
+                                return fake;
+                            });
+                            if (typeof window !== 'undefined') {
+                                window.imagesInLightbox = fakeImages;
+                                window.currentImageIndex = idx;
+                                if (typeof imagesInLightbox !== 'undefined') imagesInLightbox = window.imagesInLightbox;
+                                if (typeof currentImageIndex !== 'undefined') currentImageIndex = window.currentImageIndex;
+                            }
+                            if (typeof window.openLightbox === 'function') {
+                                window.openLightbox(mainImg.src, mainImg.alt || '');
+                            }
+                        });
+                    }
+                }
+            });
+            let gallerySlideshowImages = [
+                    'images/gallery/barconi-1.webp',
+                    'images/gallery/barconi-2.webp',
+                    'images/gallery/barconi-3.webp',
+                    'images/gallery/barconi-4.webp',
+                    'images/gallery/barconi-5.webp',
+                    'images/gallery/confine-1.webp',
+                    'images/gallery/confine-2.webp',
+                    'images/gallery/confine-3.webp',
+                    'images/gallery/confine-4.webp',
+                    'images/gallery/confine-5.webp',
+                    'images/gallery/confine-6.webp',
+                    'images/gallery/confine-7.webp',
+                    'images/gallery/confine-8.webp',
+                    'images/gallery/confine-9.webp',
+                    'images/gallery/discriminazione-1.webp',
+                    'images/gallery/discriminazione-2.webp',
+                    'images/gallery/discriminazione-3.webp',
+                    'images/gallery/discriminazione-4.webp',
+                    'images/gallery/discriminazione-5.webp',
+                    'images/gallery/discriminazione-6.webp',
+                    'images/gallery/discriminazione-7.webp',
+                    'images/gallery/discriminazione-8.webp',
+                    'images/gallery/discriminazione-9.webp',
+                    'images/gallery/fuga-1.webp',
+                    'images/gallery/fuga-3.webp',
+                    'images/gallery/fuga-4.webp',
+                    'images/gallery/fuga-5.webp',
+                    'images/gallery/fuga-6.webp',
+                    'images/gallery/fuga-7.webp',
+                    'images/gallery/fuga-8.webp',
+                    'images/gallery/fuga-9.webp',
+                    'images/gallery/fuga-10.webp',
+                    'images/gallery/futuro-1.webp',
+                    'images/gallery/futuro-2.webp',
+                    'images/gallery/futuro-3.webp',
+                    'images/gallery/futuro-4.webp',
+                    'images/gallery/futuro-5.webp',
+                    'images/gallery/futuro-6.webp',
+                    'images/gallery/futuro-7.webp',
+                    'images/gallery/futuro-8.webp',
+                    'images/gallery/futuro-9.webp',
+                    'images/gallery/inclusione-1.webp',
+                    'images/gallery/inclusione-2.webp',
+                    'images/gallery/inclusione-3.webp',
+                    'images/gallery/inclusione-4.webp',
+                    'images/gallery/inclusione-5.webp',
+                    'images/gallery/inclusione-6.webp',
+                    'images/gallery/inclusione-7.webp',
+                    'images/gallery/inclusione-8.webp',
+                    'images/gallery/lontananza-1.webp',
+                    'images/gallery/lontananza-2.webp',
+                    'images/gallery/lontananza-3.webp',
+                    'images/gallery/lontananza-4.webp',
+                    'images/gallery/lontananza-5.webp',
+                    'images/gallery/lontananza-6.webp',
+                    'images/gallery/lontananza-7.webp',
+                    'images/gallery/lontananza-8.webp',
+                    'images/gallery/lontananza-9.webp',
+                    'images/gallery/lontananza-10.webp',
+                    'images/gallery/lontananza-11.webp',
+                    'images/gallery/lontananza-12.webp',
+                    'images/gallery/lontananza-13.webp',
+                    'images/gallery/viaggio-1.webp',
+                    'images/gallery/viaggio-2.webp',
+                    'images/gallery/viaggio-3.webp',
+                    'images/gallery/viaggio-4.webp',
+                    'images/gallery/viaggio-5.webp',
+                    'images/gallery/viaggio-6.webp',
+                    'images/gallery/viaggio-7.webp',
+                    'images/gallery/viaggio-8.webp',
+                    'images/gallery/viaggio-9.webp',
+                    'images/gallery/viaggio-10.webp',
+                    'images/gallery/violenza-1.webp',
+                    'images/gallery/violenza-2.webp',
+                    'images/gallery/violenza-3.webp',
+                    'images/gallery/violenza-4.webp',
+                    'images/gallery/violenza-5.webp',
+                    'images/gallery/violenza-6.webp',
+                    'images/gallery/violenza-7.webp',
+                    'images/gallery/violenza-8.webp',
+                    'images/gallery/violenza-9.webp',
+                    'images/gallery/violenza-10.webp',
+                    'images/gallery/violenza-11.webp'
+            ];
+
+            // Shuffle array (Fisher-Yates)
+            for (let i = gallerySlideshowImages.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [gallerySlideshowImages[i], gallerySlideshowImages[j]] = [gallerySlideshowImages[j], gallerySlideshowImages[i]];
+            }
+            let gallerySlideshowIndex = 0;
+            let gallerySlideshowInterval = null;
+            let galleryIsPaused = false;
+            const gallerySlideshowImg = document.getElementById('gallery-slideshow-img');
+            const galleryBtnPrev = document.getElementById('gallery-prev');
+            const galleryBtnNext = document.getElementById('gallery-next');
+            const galleryBtnPause = document.getElementById('gallery-pause');
+            const galleryBtnPlay = document.getElementById('gallery-play');
+
+            function showGallerySlideshow(index) {
+                gallerySlideshowImg.src = gallerySlideshowImages[index];
+            }
+
+            function nextGallerySlideshow() {
+                gallerySlideshowIndex = (gallerySlideshowIndex + 1) % gallerySlideshowImages.length;
+                showGallerySlideshow(gallerySlideshowIndex);
+            }
+
+            function prevGallerySlideshow() {
+                gallerySlideshowIndex = (gallerySlideshowIndex - 1 + gallerySlideshowImages.length) % gallerySlideshowImages.length;
+                showGallerySlideshow(gallerySlideshowIndex);
+            }
+
+            function startGallerySlideshow() {
+                if (gallerySlideshowInterval) clearInterval(gallerySlideshowInterval);
+                gallerySlideshowInterval = setInterval(nextGallerySlideshow, 2500);
+                galleryIsPaused = false;
+                galleryBtnPause.style.display = '';
+                galleryBtnPlay.style.display = 'none';
+            }
+
+            function pauseGallerySlideshow() {
+                if (gallerySlideshowInterval) clearInterval(gallerySlideshowInterval);
+                galleryIsPaused = true;
+                galleryBtnPause.style.display = 'none';
+                galleryBtnPlay.style.display = '';
+            }
+
+            galleryBtnPrev.addEventListener('click', function() {
+                pauseGallerySlideshow();
+                prevGallerySlideshow();
+            });
+            galleryBtnNext.addEventListener('click', function() {
+                pauseGallerySlideshow();
+                nextGallerySlideshow();
+            });
+            galleryBtnPause.addEventListener('click', pauseGallerySlideshow);
+            galleryBtnPlay.addEventListener('click', function() {
+                startGallerySlideshow();
+            });
+
+            // Avvio iniziale
+            showGallerySlideshow(gallerySlideshowIndex);
+            startGallerySlideshow();
+            const fotoSlideshowImages = [
+                'images/foto/1.webp',
+                'images/foto/2.webp',
+                'images/foto/3.webp',
+                'images/foto/4.webp',
+                'images/foto/5.webp',
+                'images/foto/6.webp',
+                'images/foto/7.webp',
+                'images/foto/8.webp',
+                'images/foto/9.webp',
+                'images/foto/10.webp',
+                'images/foto/11.webp',
+                'images/foto/12.webp'
+            ];
+            let fotoSlideshowIndex = 0;
+            let fotoSlideshowInterval = null;
+            let isPaused = false;
+            const fotoSlideshowImg = document.getElementById('foto-slideshow-img');
+            const btnPrev = document.getElementById('foto-prev');
+            const btnNext = document.getElementById('foto-next');
+            const btnPause = document.getElementById('foto-pause');
+            const btnPlay = document.getElementById('foto-play');
+
+            function showFotoSlideshow(index) {
+                fotoSlideshowImg.src = fotoSlideshowImages[index];
+            }
+
+            function nextFotoSlideshow() {
+                fotoSlideshowIndex = (fotoSlideshowIndex + 1) % fotoSlideshowImages.length;
+                showFotoSlideshow(fotoSlideshowIndex);
+            }
+
+            function prevFotoSlideshow() {
+                fotoSlideshowIndex = (fotoSlideshowIndex - 1 + fotoSlideshowImages.length) % fotoSlideshowImages.length;
+                showFotoSlideshow(fotoSlideshowIndex);
+            }
+
+            function startSlideshow() {
+                if (fotoSlideshowInterval) clearInterval(fotoSlideshowInterval);
+                fotoSlideshowInterval = setInterval(nextFotoSlideshow, 2500);
+                isPaused = false;
+                btnPause.style.display = '';
+                btnPlay.style.display = 'none';
+            }
+
+            function pauseSlideshow() {
+                if (fotoSlideshowInterval) clearInterval(fotoSlideshowInterval);
+                isPaused = true;
+                btnPause.style.display = 'none';
+                btnPlay.style.display = '';
+            }
+
+            btnPrev.addEventListener('click', function() {
+                pauseSlideshow();
+                prevFotoSlideshow();
+            });
+            btnNext.addEventListener('click', function() {
+                pauseSlideshow();
+                nextFotoSlideshow();
+            });
+            btnPause.addEventListener('click', pauseSlideshow);
+            btnPlay.addEventListener('click', function() {
+                startSlideshow();
+            });
+
+            // Avvio iniziale
+            showFotoSlideshow(fotoSlideshowIndex);
+            startSlideshow();
+            </script>
+
             <p><br>Questa attività progettuale, realizzata da CCB, ha coinvolto studentesse e studenti dell’Istituto Maddalena di Canossa. Il progetto si propone di sensibilizzare i giovani e di accompagnarli nello sviluppo di un pensiero critico sui fenomeni migratori, affinché possano diventare promotori di discussioni e riflessioni anche al di fuori dell’ambiente scolastico, confrontandosi con i propri pari e in altri contesti, come quello familiare.
 
-L’esposizione raccoglie elaborati artistici realizzati dai ragazzi a partire da parole chiave emerse da una riflessione condivisa sul percorso, oppure dal racconto di storie di migrazione.
-<br><br><br>
- <b>Parole chiave:</b><br>
-Inclusione · Viaggio · Donne · Confine · Violenza · Barconi · Futuro · Lontananza da casa · Discriminazione
-</p>
-            <div class="gallery gallery-preview">
-               
-                <div class="gallery-item"><img src="images/disegni/7a.jpg.png" alt="Disegno"></div>
-                 <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_37_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/2025-12-09_220623.jpg.png" alt="Disegno"></div>
+           <br><br> L’esposizione raccoglie elaborati artistici realizzati dai ragazzi a partire da parole chiave emerse da una riflessione condivisa sul percorso, oppure dal racconto di storie di migrazione.
+            </p>
+            <div class="parole-chiave-emph">
+                <p style="margin: 16px">Parole chiave:</p>
+                <div style="font-size: 1.35em; font-weight: 500; color: #1a1a1a; line-height: 1.5; max-width: 40vw; margin: 0 auto;">
+                    Inclusione &middot; Viaggio &middot; Fuga &middot; Confine &middot; Violenza &middot; Barconi &middot; Futuro &middot; Lontananza da casa &middot; Discriminazione
+                </div>
             </div>
-            
-            <div style="text-align: center; margin-top: 30px;">
-                <button class="gallery-toggle-btn" id="gallery-toggle">Sfoglia la gallery</button>
-            </div>
-        </div>
+            <style>
+            .parole-chiave-emph {
+                text-align: center;
+                margin: 36px 0 40px 0;
+            }
+            </style>
 
-        <!-- Dixit Section (hidden initially) -->
-        <div class="page-content" id="dixit-section" style="display: none;">
-            <h1>Gallery 1</h1>
-            <p>Esplora la nostra storia attraverso queste immagini e testimonianze.</p>
-            
-            <div style="text-align: center; margin-bottom: 30px;">
-                <button class="gallery-toggle-btn" id="dixit-close">Torna alla pagina About</button>
-            </div>
-            
-            <!-- Full Dixit Gallery -->
-            <div class="gallery dixit-gallery dixit-full">
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/1.png" alt="Chi siamo" data-caption="Ricordo che ero molto confuso perché mi trovavo davanti a tante strade tra cui dovevo scegliere.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Ricordo che ero molto confuso perché mi trovavo davanti a tante strade tra cui dovevo scegliere."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/2.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine due.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine due."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/3.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine tre.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine tre."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/4.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine quattro.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine quattro."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/5.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine cinque.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine cinque."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/6.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine sei.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine sei."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/7.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine sette.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine sette."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/8.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine otto.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine otto."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/9.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine nove.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine nove."</p>
-                    </div>
-                </div>
-                <div class="gallery-item dixit-item">
-                    <img src="images/dixit/10.png" alt="Chi siamo" data-caption="Questo è un testo segnaposto per l'immagine dieci.">
-                    <div class="dixit-overlay">
-                        <p class="dixit-text">"Questo è un testo segnaposto per l'immagine dieci."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div style="text-align: center; margin: 24px 0 40px 0;">
+        <button class="gallery-toggle-btn" id="gallery-toggle">Guarda i disegni</button>
+</div>
+
+<!-- Modal Gallery for all images in images/gallery -->
+<div id="gallery-modal" style="display:none; position:fixed; z-index:10000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.8); overflow:auto; align-items:center; justify-content:center; flex-direction:column;">
+    <div style="max-width:1200px; width:96vw; margin:0px; background:#f4f4f4; border-radius:10px; padding:32px 24px 0px 24px; position:relative; min-height:70vh;">
+        <button id="gallery-modal-close" style="background: none; border: none; cursor: pointer; position: absolute; top: 18px; right: 18px; padding: 0px; z-index: 10001; opacity: 0.5; transition: opacity 0.2s;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="9" y1="9" x2="23" y2="23" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="23" y1="9" x2="9" y2="23" stroke="#222" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+        </button>
+        <style>
+        #gallery-modal-close {
+            opacity: 0.5;
+            transition: opacity 0.2s;
+            top: 28px !important;
+        }
+        #gallery-modal-close:hover {
+            opacity: 1 !important;
+        }
+        </style>
         
-        <!-- Gallery Section (hidden initially) -->
-        <div style="padding: 70px;;"></div>
-        <div class="page-content" id="gallery-section" style="display: none;">
-           
-            <h1 id="conoscere-accogliere">Conoscere per accogliere</h1>
-            <p>Questa attività di progetto svolta da CCB ha coinvolto studenti e studentesse dell'Istituto Maddalena di Canossa. Il progetto ha come obiettivo quello di sensibilizzare i giovani ed aiutarli a sviluppare un pensiero critico verso i fenomeni migratori, in modo che siano poi loro stessi ad aprire discussioni e riflessioni al di fuori dell'ambiente scolastico, con i propri pari o in altri contesti
-altri come quello famigliare.</p>
-            
-            <div style="text-align: center; margin-bottom: 30px;">
-                <button class="gallery-toggle-btn" id="gallery-close">Torna alla pagina About</button>
-            </div>
-            
-            <!-- Full Gallery -->
-            <div class="gallery gallery-full">
-                <div class="gallery-item"><img src="images/disegni/2025-12-09_220623.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/2a.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/2b.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/5a.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/5b.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/7a.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/7b.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_01_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_02_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_03_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_04_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_05_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_06_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_07_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_08_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_10_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_11_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_14_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_15_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_16_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_17_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_19_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_21_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_24_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_25_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_26_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_27_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_28_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_29_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_30_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_31_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_32_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_33_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_34_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_35_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_36_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_37_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_38_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_39_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_40_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_41_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_42_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_43_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_44_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_45_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_46_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_47_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_48_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_49_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_50_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Binder1_Pagina_51_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_01_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_02_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_05_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_08_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_10_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_13_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato 3_Pagina_16_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato copia_Pagina_2_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato copia_Pagina_3_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato copia_Pagina_6_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/Documento scansionato_Pagina_3_Immagine_0001.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/confine 1b.jpg.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/confine-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/discriminazione-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/discriminazione-1b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/discriminazione-2a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/discriminazione-2b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/diversita-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/diversita-1b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/fuga-1.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/fuga-2a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/fuga-2b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/futuro-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/futuro-1b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/futuro-2.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/inclusione-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/inclusione-1b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/inclusione-2a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/inclusione-2b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/lontananza-1a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/lontananza-1b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/lontananza-2a.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/lontananza-2b.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/violenza-1.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/violenza-2.png" alt="Disegno"></div>
-                <div class="gallery-item"><img src="images/disegni/violenza-3.png" alt="Disegno"></div>
-            </div>
-        </div>
+        <div id="gallery-keyword-filters" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-bottom:24px;"></div>
+        <div id="gallery-modal-grid" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; max-height:70vh; overflow-y:auto; padding:20px;"></div>
     </div>
+</div>
+        <script>
+        // --- Modal Gallery with Filters ---
+        const galleryImages = [
+            { src: 'images/gallery/barconi-1.webp', keywords: ['Barconi'] },
+            { src: 'images/gallery/barconi-2.webp', keywords: ['Barconi'] },
+            { src: 'images/gallery/barconi-3.webp', keywords: ['Barconi'] },
+            { src: 'images/gallery/barconi-4.webp', keywords: ['Barconi'] },
+            { src: 'images/gallery/barconi-5.webp', keywords: ['Barconi'] },
+            { src: 'images/gallery/confine-1.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-2.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-3.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-4.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-5.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-6.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-7.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-8.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/confine-9.webp', keywords: ['Confine'] },
+            { src: 'images/gallery/discriminazione-1.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-2.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-3.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-4.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-5.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-6.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-7.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-8.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/discriminazione-9.webp', keywords: ['Discriminazione'] },
+            { src: 'images/gallery/fuga-1.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-3.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-4.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-5.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-6.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-7.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-8.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-9.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/fuga-10.webp', keywords: ['Fuga'] },
+            { src: 'images/gallery/futuro-1.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-2.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-3.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-4.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-5.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-6.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-7.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-8.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/futuro-9.webp', keywords: ['Futuro'] },
+            { src: 'images/gallery/inclusione-1.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-2.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-3.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-4.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-5.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-6.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-7.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/inclusione-8.webp', keywords: ['Inclusione'] },
+            { src: 'images/gallery/lontananza-1.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-2.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-3.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-4.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-5.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-6.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-7.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-8.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-9.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-10.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-11.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-12.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/lontananza-13.webp', keywords: ['Lontananza da casa'] },
+            { src: 'images/gallery/viaggio-1.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-2.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-3.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-4.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-5.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-6.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-7.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-8.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-9.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/viaggio-10.webp', keywords: ['Viaggio'] },
+            { src: 'images/gallery/violenza-1.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-2.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-3.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-4.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-5.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-6.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-7.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-8.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-9.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-10.webp', keywords: ['Violenza'] },
+            { src: 'images/gallery/violenza-11.webp', keywords: ['Violenza'] }
+        ];
+        const galleryKeywords = [
+            'Tutte',
+            'Inclusione',
+            'Viaggio',
+            'Fuga',
+            'Confine',
+            'Violenza',
+            'Barconi',
+            'Futuro',
+            'Lontananza da casa',
+            'Discriminazione'
+        ];
+        const galleryModal = document.getElementById('gallery-modal');
+        const galleryModalGrid = document.getElementById('gallery-modal-grid');
+        const galleryModalClose = document.getElementById('gallery-modal-close');
+        const galleryToggleBtn = document.getElementById('gallery-toggle');
+        const galleryKeywordFilters = document.getElementById('gallery-keyword-filters');
+        let currentGalleryKeyword = 'Tutte';
+
+        function renderGalleryGrid(keyword) {
+            galleryModalGrid.innerHTML = '';
+            let filtered = keyword === 'Tutte' ? galleryImages : galleryImages.filter(img => img.keywords.includes(keyword));
+            filtered.forEach(img => {
+                const div = document.createElement('div');
+                div.style.position = 'relative';
+                div.style.cursor = 'pointer';
+                // Create image element
+                const image = document.createElement('img');
+                image.src = img.src;
+                image.alt = '';
+                image.style.width = '100%';
+                image.style.height = 'auto';
+                image.style.borderRadius = '0';
+                image.style.boxShadow = 'none';
+                // When image loads, check aspect ratio
+                image.onload = function() {
+                    if (image.naturalWidth > image.naturalHeight) {
+                        // Horizontal: span 2 columns
+                        div.style.gridColumn = 'span 2';
+                    } else {
+                        // Vertical or square: span 1 column
+                        div.style.gridColumn = 'span 1';
+                    }
+                };
+                div.appendChild(image);
+                div.addEventListener('click', () => {
+                    // Trova le immagini filtrate attualmente mostrate nella modal
+                    const keyword = currentGalleryKeyword;
+                    const filtered = (keyword === 'Tutte' ? galleryImages : galleryImages.filter(img => img.keywords.includes(keyword)));
+                    // Crea oggetti Image con src e dataset.caption (vuoto)
+                    const fakeImages = filtered.map(imgObj => {
+                        const fake = document.createElement('img');
+                        fake.src = imgObj.src;
+                        fake.dataset.caption = '';
+                        return fake;
+                    });
+                    // Aggiorna sia window che variabili locali (compatibilità about.js)
+                    if (typeof window !== 'undefined') {
+                        window.imagesInLightbox = fakeImages;
+                        window.currentImageIndex = filtered.findIndex(imgObj => imgObj.src === img.src);
+                        if (window.currentImageIndex === -1) window.currentImageIndex = 0;
+                        // Aggiorna anche le variabili locali se esistono
+                        if (typeof imagesInLightbox !== 'undefined') imagesInLightbox = window.imagesInLightbox;
+                        if (typeof currentImageIndex !== 'undefined') currentImageIndex = window.currentImageIndex;
+                    }
+                    if (typeof window.openLightbox === 'function') {
+                        window.openLightbox(img.src, '');
+                    }
+                });
+                galleryModalGrid.appendChild(div);
+            });
+        }
+
+        function renderGalleryFilters() {
+            galleryKeywordFilters.innerHTML = '';
+            galleryKeywords.forEach(keyword => {
+                const btn = document.createElement('button');
+                btn.textContent = keyword;
+                btn.style.margin = '0 4px';
+                btn.style.padding = '6px 16px';
+                btn.style.borderRadius = '6px';
+                btn.style.cursor = 'pointer';
+                btn.style.fontWeight = 'bold';
+                if (keyword === currentGalleryKeyword) {
+                    btn.style.background = '#222';
+                    btn.style.color = '#fff';
+                    btn.style.border = 'none';
+                } else {
+                    btn.style.background = 'transparent';
+                    btn.style.color = '#222';
+                    btn.style.border = '0.5px solid #111';
+                    btn.style.opacity = '0.6';
+                    btn.addEventListener('mouseenter', () => { btn.style.opacity = '1'; });
+                    btn.addEventListener('mouseleave', () => { btn.style.opacity = '0.6'; });
+                }
+                btn.addEventListener('click', () => {
+                    currentGalleryKeyword = keyword;
+                    renderGalleryFilters();
+                    renderGalleryGrid(keyword);
+                });
+                galleryKeywordFilters.appendChild(btn);
+            });
+        }
+
+        galleryToggleBtn.addEventListener('click', function() {
+            galleryModal.style.display = 'flex';
+            currentGalleryKeyword = 'Tutte';
+            renderGalleryFilters();
+            renderGalleryGrid('Tutte');
+            document.body.style.overflow = 'hidden';
+        });
+        galleryModalClose.addEventListener('click', function() {
+            galleryModal.style.display = 'none';
+            document.body.style.overflow = '';
+        });
+        galleryModal.addEventListener('click', function(e) {
+            if (e.target === galleryModal) {
+                galleryModal.style.display = 'none';
+                document.body.style.overflow = '';
+            }
+        });
+
+                // --- Lightbox for modal gallery: delega a about.js ---
+                // Lightbox rimossa: la gallery modale ora non apre più la lightbox
+        </script>
+        
+
+               
+       
 
     <!-- Lightbox Modal -->
     <div class="lightbox" id="lightbox">
-        <span class="lightbox-close" id="lightbox-close">&times;</span>
-        <button class="lightbox-nav lightbox-prev" id="lightbox-prev">←</button>
+        <button class="lightbox-close" id="lightbox-close" style="background: none; border: none; cursor: pointer; position: absolute; top: 24px; right: 22px; padding: 0px; z-index: 10001; opacity: 0.5; transition: opacity 0.2s;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="9" y1="9" x2="23" y2="23" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+                <line x1="23" y1="9" x2="9" y2="23" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" style="background: none; border: none; cursor: pointer; padding: 12px; transition: opacity 0.2s; z-index: 10001; position: absolute; left: 0; top: 50%; transform: translateY(-50%);">
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 30L14 19L24 8" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" filter="drop-shadow(0 2px 6px #0008)"/>
+            </svg>
+        </button>
         <div class="lightbox-content">
             <img class="lightbox-img" id="lightbox-img" src="" alt="">
-            <p class="lightbox-caption" id="lightbox-caption"></p>
+            <p class="lightbox-caption" id="lightbox-caption" style="padding: 0 38px;"> </p>
         </div>
-        <button class="lightbox-nav lightbox-next" id="lightbox-next">→</button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" style="background: none; border: none; cursor: pointer; padding: 12px; transition: opacity 0.2s; z-index: 10001; position: absolute; right: 0; top: 50%; transform: translateY(-50%);">
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 8L24 19L14 30" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" filter="drop-shadow(0 2px 6px #0008)"/>
+            </svg>
+        </button>
+    <style>
+    .lightbox-nav, .lightbox-close {
+        opacity: 0.5;
+        transition: opacity 0.2s;
+    }
+    .lightbox-nav:hover, .lightbox-close:hover {
+        opacity: 1 !important;
+    }
+    .lightbox-caption {
+        max-width: 55vw;
+        box-sizing: border-box;
+        line-height: 1.25 !important;
+    }
+    </style>
     </div>
- <div class="page-content">
-    
 
-    <p style="margin-bottom: 100px;">Obiettivo dei laboratori svolti al Carro è stato costruire uno spazio in grado di essere luogo di interazione e dialogo tra ragazzi e ragazze appartenenti a realtà molto diverse tra loro e che spesso non entrano in contatto (minori stranieri non accompagnati, ragazzi/e di alcuni licei di Monza in PCTO e ragazzi/e iscritti ai servizi del Centro educativo Il Carro di
-Monza).
+
+ <div style="padding: 70px;"><h1 id="carro">CCB x Il Carro</h1>
+ <p style="margin-bottom: 100px;">L’impresa sociale Il Carro, dal 1993, accompagna e sostiene minori in situazioni di fragilità – in particolare adolescenti – nel loro percorso di crescita e di costruzione dell’identità.
+
+<br>    Obiettivo dei laboratori svolti al Carro è stato costruire uno spazio in grado di essere luogo di interazione e dialogo tra ragazzi e ragazze appartenenti a realtà molto diverse tra loro e che spesso non entrano in contatto (minori stranieri non accompagnati, ragazzi/e di alcuni licei di Monza in PCTO e ragazzi/e iscritti ai servizi del Centro educativo Il Carro di
+Monza). <br><br>
 L'ascolto e la comprensione reciproca ha permesso ai ragazzi di lasciarsi conoscere al di là dei pregiudizi e delle differenze che la storia di vita di ciascuno restituisce, costruendo legami tra di loro, legami che sono fondamenta necessarie di una cultura dell'accoglienza.
 <br> <br>Tra le attività svolte: <br>
 - #salisulCarro: partecipazione ai 42 km a staffetta della Milano
 Marathon <br>
 - La ricerca della felicità: scrittura di una poesia sulla felicità e realizzazione di una tela, che riporta la poesia scritta dal gruppo ispirandosi al testo "Considero Valore" di Erri De Luca
 </p>
+
+ 
+    
+
+   
         <div style="display: flex; flex-direction: column; align-items: center; margin: 36px 0 40px 0; gap: 50px;">
             <img src="images/mostra/considero-valore.webp" alt="Tela Considero Valore" style="width: 70%; min-width: 220px; max-width: 100%; height: auto; border-radius: 6px; object-fit: cover;">
             <div style="  font-size: 1em; color: #444; width: 70%; min-width: 220px; max-width: 100%; line-height: 1.6; text-align: left; ">
@@ -454,7 +836,6 @@ Considero valore la mia terra, la felicità e quello che oggi vale ancora poco.<
 
 La creatività e le pratiche artistiche diventano così strumenti ed occasioni per raccontarsi, andando oltre le parole e aprendo nuovi spazi di espressione personale.
 
-L’impresa sociale Il Carro, dal 1993, accompagna e sostiene minori in situazioni di fragilità – in particolare adolescenti – nel loro percorso di crescita e di costruzione dell’identità.
 
 <p><b>A cura di</b> <br>
 Sekou · Hamadi · Almamo · Solo · Ahmed · Aboubacar · Lamin · Ange · Abdalla · Aboubakar</p>
@@ -467,22 +848,231 @@ Estate 2025</p>
 
 <p>L’attività è stata realizzata nell’ambito del progetto “Conoscere per Accogliere”, promosso dal Consorzio Comunità Brianza e da Il Carro all’interno del bando Giovani Protagonisti, finanziato dal Comune di Monza.
 
-L’obiettivo del progetto è avvicinare giovani di diverse origini e prevenire fenomeni di discriminazione e xenofobia nel quartiere Centro di Monza, attraverso attività svolte negli istituti superiori e presso Il Carro.
+L’obiettivo del progetto è avvicinare giovani di diverse origini e prevenire fenomeni di discriminazione e xenofobia nel quartiere Centro di Monza, attraverso attività svolte negli istituti superiori e presso Il Carro. <br><br>
 </p>
 
-                <div style="max-width: 100%; margin: 32px auto 0 auto;">
-                    <iframe src="images/book.pdf" style="width:58%; height:860px; display:block; margin:0 auto; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 8px #0001;" title="Visualizza il libro PDF"></iframe>
-                </div>
+<!-- Slideshow LIBRO -->
+<div id="libro-slideshow" style="width: 100%; margin: 0 auto 40px auto; position: relative; overflow: hidden; border-radius: 0; border: 1.2px solid #bbb; padding: 0;">
+        <style>
+        #libro-slideshow:hover #libro-slideshow-controls {
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+        #libro-slideshow:hover #libro-slideshow-gradient {
+            opacity: 1 !important;
+        }
+        </style>
+    <img id="libro-slideshow-img" src="images/libro/1.webp" alt="Slideshow libro" style="width: 100%; height: auto; display: block; border-radius: 0; border: none; position: relative;">
+    <div id="libro-slideshow-gradient" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; pointer-events: none; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.28) 60%, rgba(0,0,0,0.0) 100%); border-radius: 0; opacity: 0; transition: opacity 0.22s;"></div>
+    <div id="libro-slideshow-controls" style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 2; opacity: 0; pointer-events: none; transition: opacity 0.2s;">
+        <button id="libro-prev" aria-label="Precedente" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M14.5 19L7.5 11L14.5 3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button id="libro-pause" aria-label="Pausa" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; border-radius: 6px; color: #fff;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/><rect x="12.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/></svg>
+        </button>
+        <button id="libro-play" aria-label="Riprendi" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: none; border-radius: 6px; color: #fff;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="5,3 17,10 5,17" fill="#fff"/></svg>
+        </button>
+        <button id="libro-next" aria-label="Successiva" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M7.5 3L14.5 11L7.5 19" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+    </div>
+</div>
+<div style="text-align: center; margin: 24px 0 40px 0; margin-top: 80px;">
+    <a href="images/libro/Io_sono_e_sarò.pdf" download class="gallery-toggle-btn" style="font-size: 1em; text-decoration: none;" >
+        Scarica il libro in PDF
+    </a>
+</div>
+<script>
+// Slideshow automatico immagini in images/libro/ con controlli manuali
+const libroSlideshowImages = [
+    'images/libro/1.webp',
+    'images/libro/2.webp',
+    'images/libro/3.webp',
+    'images/libro/4.webp',
+    'images/libro/5.webp',
+    'images/libro/6.webp',
+    'images/libro/7.webp',
+    'images/libro/8.webp',
+    'images/libro/9.webp',
+    'images/libro/10.webp',
+    'images/libro/11.webp',
+    'images/libro/12.webp',
+    'images/libro/13.webp',
+    'images/libro/14.webp',
+    'images/libro/15.webp', 
+    'images/libro/16.webp',
+    'images/libro/17.webp',
+    'images/libro/18.webp',
+    'images/libro/19.webp',
+    'images/libro/20.webp',
+    'images/libro/21.webp',
+    'images/libro/22.webp',
+    'images/libro/23.webp'
+];
+let libroSlideshowIndex = 0;
+let libroSlideshowInterval = null;
+let libroIsPaused = false;
+const libroSlideshowImg = document.getElementById('libro-slideshow-img');
+const libroBtnPrev = document.getElementById('libro-prev');
+const libroBtnNext = document.getElementById('libro-next');
+const libroBtnPause = document.getElementById('libro-pause');
+const libroBtnPlay = document.getElementById('libro-play');
+
+function showLibroSlideshow(index) {
+    libroSlideshowImg.src = libroSlideshowImages[index];
+}
+
+function nextLibroSlideshow() {
+    libroSlideshowIndex = (libroSlideshowIndex + 1) % libroSlideshowImages.length;
+    showLibroSlideshow(libroSlideshowIndex);
+}
+
+function prevLibroSlideshow() {
+    libroSlideshowIndex = (libroSlideshowIndex - 1 + libroSlideshowImages.length) % libroSlideshowImages.length;
+    showLibroSlideshow(libroSlideshowIndex);
+}
+
+function startLibroSlideshow() {
+    if (libroSlideshowInterval) clearInterval(libroSlideshowInterval);
+    libroSlideshowInterval = setInterval(nextLibroSlideshow, 4000);
+    libroIsPaused = false;
+    libroBtnPause.style.display = '';
+    libroBtnPlay.style.display = 'none';
+}
+
+function pauseLibroSlideshow() {
+    if (libroSlideshowInterval) clearInterval(libroSlideshowInterval);
+    libroIsPaused = true;
+    libroBtnPause.style.display = 'none';
+    libroBtnPlay.style.display = '';
+}
+
+libroBtnPrev.addEventListener('click', function() {
+    pauseLibroSlideshow();
+    prevLibroSlideshow();
+});
+libroBtnNext.addEventListener('click', function() {
+    pauseLibroSlideshow();
+    nextLibroSlideshow();
+});
+libroBtnPause.addEventListener('click', pauseLibroSlideshow);
+libroBtnPlay.addEventListener('click', function() {
+    startLibroSlideshow();
+});
+
+// Avvio iniziale
+showLibroSlideshow(libroSlideshowIndex);
+startLibroSlideshow();
+</script>
+
+                
                  <h1 style="margin-top: 210px;" id="migrazioni">MigrAzioni</h1>
-            <p>Il progetto si è svolto con la classe 4ASA del Liceo Frisi e nel corso del corrente anno scolastico per l'intero monte ore previsto dall'insegnamento dell'Educazione civica.
-Questa proposta di lavoro è nata sia dalla volontà di offrire agli studenti una informazione corretta sul tema delle migrazioni forzate, sia dall'intento di costruire percorsi di cittadinanza attiva e consapevole, al fine di promuovere una autentica cultura dell'accoglienza.
-La mostra è stata allestita all'interno della scuola. Sono ospitati qui alcuni prodotti realizzati dai ragazzi, tra cui un podcast sulla salute mentale dei giovani migranti (consultabile tramite QR code) e una tavola illustrata raffigurante il ruolo del mediatore linguistico-culturale.
-</p>
+           
 
- <h2>Il mediatore culturale</h2>
-                                                <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -30px; text-align: left;">Podcast a cura degli studenti della classe 4ASA del Liceo Frisi</div>
+<!-- Slideshow FOTO DUPLICATE -->
+<div id="foto-slideshow-2" style="width: 100%; aspect-ratio: 3/2; margin: 0 auto 40px auto; position: relative; overflow: hidden; border-radius: 8px; padding: 0;">
+        <style>
+        #foto-slideshow-2:hover #foto-slideshow-controls-2 {
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+        #foto-slideshow-2:hover #foto-slideshow-gradient-2 {
+            opacity: 1 !important;
+        }
+        .dixit-text {
+            font-size: 0.9em !important;
+        }
+        </style>
+    <img id="foto-slideshow-img-2" src="images/foto/1.webp" alt="Slideshow foto" style="width: 100%; height: auto; display: block; object-fit: cover; border-radius: 8px; position: absolute; top: 0; left: 0;">
+    <div id="foto-slideshow-gradient-2" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100px; pointer-events: none; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,0.28) 60%, rgba(0,0,0,0.0) 100%); border-radius: 0 0 8px 8px; opacity: 0; transition: opacity 0.22s;"></div>
+    <div id="foto-slideshow-controls-2" style="position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); display: flex; gap: 12px; z-index: 2; opacity: 0; pointer-events: none; transition: opacity 0.2s;">
+        <button id="foto-prev-2" aria-label="Precedente" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M14.5 19L7.5 11L14.5 3" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button id="foto-pause-2" aria-label="Pausa" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; border-radius: 6px; color: #fff;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/><rect x="12.5" y="3.5" width="3" height="13" rx="1.2" fill="#fff"/></svg>
+        </button>
+        <button id="foto-play-2" aria-label="Riprendi" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: none; border-radius: 6px; color: #fff;">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="5,3 17,10 5,17" fill="#fff"/></svg>
+        </button>
+        <button id="foto-next-2" aria-label="Successiva" style="padding: 6px 14px; border: none; background: none; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; border-radius: 6px;">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;"><path d="M7.5 3L14.5 11L7.5 19" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+    </div>
+</div>
+<script>
+// Slideshow automatico immagini in images/foto/ con controlli manuali (DUPLICATE)
+const fotoSlideshowImages2 = [
+    'images/foto/b1.webp',
+    'images/foto/b2.webp',
+    'images/foto/b3.webp',
+    'images/foto/b4.webp'
+];
+let fotoSlideshowIndex2 = 0;
+let fotoSlideshowInterval2 = null;
+let isPaused2 = false;
+const fotoSlideshowImg2 = document.getElementById('foto-slideshow-img-2');
+const btnPrev2 = document.getElementById('foto-prev-2');
+const btnNext2 = document.getElementById('foto-next-2');
+const btnPause2 = document.getElementById('foto-pause-2');
+const btnPlay2 = document.getElementById('foto-play-2');
+
+function showFotoSlideshow2(index) {
+    fotoSlideshowImg2.src = fotoSlideshowImages2[index];
+}
+
+function nextFotoSlideshow2() {
+    fotoSlideshowIndex2 = (fotoSlideshowIndex2 + 1) % fotoSlideshowImages2.length;
+    showFotoSlideshow2(fotoSlideshowIndex2);
+}
+
+function prevFotoSlideshow2() {
+    fotoSlideshowIndex2 = (fotoSlideshowIndex2 - 1 + fotoSlideshowImages2.length) % fotoSlideshowImages2.length;
+    showFotoSlideshow2(fotoSlideshowIndex2);
+}
+
+function startSlideshow2() {
+    if (fotoSlideshowInterval2) clearInterval(fotoSlideshowInterval2);
+    fotoSlideshowInterval2 = setInterval(nextFotoSlideshow2, 2500);
+    isPaused2 = false;
+    btnPause2.style.display = '';
+    btnPlay2.style.display = 'none';
+}
+
+function pauseSlideshow2() {
+    if (fotoSlideshowInterval2) clearInterval(fotoSlideshowInterval2);
+    isPaused2 = true;
+    btnPause2.style.display = 'none';
+    btnPlay2.style.display = '';
+}
+
+btnPrev2.addEventListener('click', function() {
+    pauseSlideshow2();
+    prevFotoSlideshow2();
+});
+btnNext2.addEventListener('click', function() {
+    pauseSlideshow2();
+    nextFotoSlideshow2();
+});
+btnPause2.addEventListener('click', pauseSlideshow2);
+btnPlay2.addEventListener('click', function() {
+    startSlideshow2();
+});
+
+// Avvio iniziale
+showFotoSlideshow2(fotoSlideshowIndex2);
+startSlideshow2();
+</script>
+ <p>Il progetto si è svolto con la classe 4ASA del Liceo Frisi e nel corso del corrente anno scolastico per l'intero monte ore previsto dall'insegnamento dell'Educazione civica.
+Questa proposta di lavoro è nata sia dalla volontà di offrire agli studenti una informazione corretta sul tema delle migrazioni forzate, sia dall'intento di costruire percorsi di cittadinanza attiva e consapevole, al fine di promuovere una autentica cultura dell'accoglienza.
+<br><br>La mostra è stata allestita all'interno della scuola. Sono ospitati qui alcuni prodotti realizzati dai ragazzi, tra cui un podcast sulla salute mentale dei giovani migranti e una tavola illustrata raffigurante il ruolo del mediatore linguistico-culturale.
+</p>
+ <h2 style="margin-top: 100px;">Il mediatore culturale</h2>
+                                                <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -30px; text-align: left;">Fumetto a cura degli studenti della classe 4ASA del Liceo Frisi</div>
                                                 <div style="overflow-x: auto; white-space: nowrap; margin: 30px auto; width: 100%;">
-                                                    <img src="images/multimedia/fiori.png" alt="Fumetto mediatore culturale" style="max-width: 200%; height: auto; display: block; margin: 0 auto;">
+                                                    <img src="images/multimedia/fiori.webp" alt="Fumetto mediatore culturale" style="max-width: 200%; height: auto; display: block; margin: 0 auto;">
                                                 </div>
                                                 <div style="text-align: left; margin-top: 30px;">
 
@@ -490,26 +1080,33 @@ La mostra è stata allestita all'interno della scuola. Sono ospitati qui alcuni 
                         <h2 style="margin-top: 90px; text-align:left;">Ferite Invisibili</h2>
                         <div style="font-size: 1.1rem; color: #444; margin-bottom: 18px; margin-top: -30px; text-align: left;">Podcast a cura degli studenti della classe 4ASA del Liceo Frisi</div>
                         <div style="max-width: 500px; margin: 30px 0 0 0; text-align:left;">
-                            <div style="margin-bottom: 18px; display: flex; flex-direction: row; align-items: center;">
-                                <span style="width: 20%; font-weight: 600; min-width: 90px;">Puntata 1</span>
-                                <audio controls style="width: 80%; margin-left: 12px; margin-top: 0;">
-                                    <source src="images/multimedia/ferite-invisibili-1.mp3" type="audio/mpeg">
-                                    Il tuo browser non supporta l'audio.
-                                </audio>
-                            </div>
-                            <div style="margin-bottom: 18px; display: flex; flex-direction: row; align-items: center;">
-                                <span style="width: 20%; font-weight: 600; min-width: 90px;">Puntata 2</span>
-                                <audio controls style="width: 80%; margin-left: 12px; margin-top: 0;">
-                                    <source src="images/multimedia/ferite-invisibili-2.mp3" type="audio/mpeg">
-                                    Il tuo browser non supporta l'audio.
-                                </audio>
-                            </div>
-                            <div style="margin-bottom: 18px; display: flex; flex-direction: row; align-items: center;">
-                                <span style="width: 20%; font-weight: 600; min-width: 90px;">Puntata 3</span>
-                                <audio controls style="width: 80%; margin-left: 12px; margin-top: 0;">
-                                    <source src="images/multimedia/ferite-invisibili-3.mp3" type="audio/mpeg">
-                                    Il tuo browser non supporta l'audio.
-                                </audio>
+                            <div style="display: flex; flex-direction: row; align-items: center; gap: 18px;">
+                                <img src="images/multimedia/podcast.webp" alt="Podcast" style="width: 100%; max-width: none; height: auto; flex: 1 1 50%; object-fit: contain;" />
+                                <div style="flex: 1 1 50%; min-width: 320px; overflow-x: auto;">
+                                    <div style="display: flex; flex-direction: column; gap: 22px; padding-left: 15px;">
+                                        <div>
+                                            <span style="display: block; font-weight: 600; font-size: 1.08em; margin-bottom: 6px;">Puntata 1</span>
+                                            <audio controls style="width: 100%;">
+                                                <source src="images/multimedia/ferite-invisibili-1.mp3" type="audio/mpeg">
+                                                Il tuo browser non supporta l'audio.
+                                            </audio>
+                                        </div>
+                                        <div>
+                                            <span style="display: block; font-weight: 600; font-size: 1.08em; margin-bottom: 6px;">Puntata 2</span>
+                                            <audio controls style="width: 100%;">
+                                                <source src="images/multimedia/ferite-invisibili-2.mp3" type="audio/mpeg">
+                                                Il tuo browser non supporta l'audio.
+                                            </audio>
+                                        </div>
+                                        <div>
+                                            <span style="display: block; font-weight: 600; font-size: 1.08em; margin-bottom: 6px;">Puntata 3</span>
+                                            <audio controls style="width: 100%;">
+                                                <source src="images/multimedia/ferite-invisibili-3.mp3" type="audio/mpeg">
+                                                Il tuo browser non supporta l'audio.
+                                            </audio>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 

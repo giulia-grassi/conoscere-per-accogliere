@@ -1,26 +1,10 @@
 // Script estratto da about.html
 // Gallery toggle functionality
-const galleryToggleBtn = document.getElementById('gallery-toggle');
-const galleryCloseBtn = document.getElementById('gallery-close');
+
 const dixitToggleBtn = document.getElementById('dixit-toggle');
 const dixitPreviewGallery = document.getElementById('dixit-preview-gallery');
-const dixitCloseBtn = document.getElementById('dixit-close');
-const aboutSection = document.getElementById('about-section');
-const gallerySection = document.getElementById('gallery-section');
-const dixitSection = document.getElementById('dixit-section');
-const galleryFull = document.querySelector('.gallery-full');
 
-galleryToggleBtn?.addEventListener('click', () => {
-    aboutSection.style.display = 'none';
-    gallerySection.style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
 
-galleryCloseBtn?.addEventListener('click', () => {
-    gallerySection.style.display = 'none';
-    aboutSection.style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
 
 dixitToggleBtn?.addEventListener('click', () => {
     // Espansione/riduzione galleria Dixit preview
@@ -44,19 +28,10 @@ dixitToggleBtn?.addEventListener('click', () => {
         }
         // Scrolla il bottone in vista
         dixitToggleBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        return;
     }
-    // Fallback: vecchio comportamento
-    aboutSection.style.display = 'none';
-    dixitSection.style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-dixitCloseBtn?.addEventListener('click', () => {
-    dixitSection.style.display = 'none';
-    aboutSection.style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
+
 
 // Lightbox functionality
 const lightbox = document.getElementById('lightbox');
@@ -71,6 +46,11 @@ let currentImageIndex = 0;
 let imagesInLightbox = [];
 
 // Collect all gallery images
+// Espone variabili globali per la lightbox gallery
+window.imagesInLightbox = [];
+window.currentImageIndex = 0;
+window.openLightbox = openLightbox;
+
 function initLightbox() {
     const galleryImages = document.querySelectorAll('.gallery-full .gallery-item img');
     const dixitImages = document.querySelectorAll('.dixit-full .gallery-item img');
