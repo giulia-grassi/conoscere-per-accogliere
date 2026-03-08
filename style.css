@@ -161,14 +161,7 @@
     .navbar-logo {
         font-size: 1em;
     }
-}
-/* Centra orizzontalmente la wrap stereotipi */
-.img-4-stereotipi-wrap {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: fit-content;
-    max-width: 100%;
+
 }
 /* Responsive clickable-center per proporzioni con img-home */
 @media (max-height: 900px) {
@@ -580,6 +573,15 @@ video.img-home {
     text-align: left;
     padding-left: 10px;
 }
+.modal-number16 {
+    margin-top: 8px;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    margin-right: 100px;
+    margin-left:auto;
+}
 .modal-number10 {
     margin-top: -48px;
     font-size: 1.1em;
@@ -643,9 +645,9 @@ video.img-home {
 
 /* Posizionamento personalizzato delle immagini */
 .img-0-intro-wrap {
-    left: 5%;
-    top: 28%;
-    width: 33%;
+    left: 10%;
+    top: 12%;
+    width: 58%;
     z-index: 90;
 }
 .img-0-intro-b {
@@ -655,10 +657,10 @@ video.img-home {
     z-index: 2;
 }
 .img-0-intro-c {
-    left: 69%;
-    top: 28%;
-    width: 33%;
-    z-index: 1;
+    left: 55%;
+    top: 46%;
+    width: 35%;
+    z-index: 91;
 }
 .img-1-intro-wrap {
     max-width: 36%;
@@ -686,6 +688,22 @@ video.img-home {
     z-index: 1;
     pointer-events: none;
 }
+.img-11 {
+    position: absolute;
+    top: 54%;
+   left : 5%;;
+    width: 33vw;
+    z-index: 1;
+    pointer-events: none;
+}
+.img-11b {
+    position: absolute;
+    top: 13%;
+   left : 5%;;
+    width: 33vw;
+    z-index: 1;
+    pointer-events: none;
+}
 .img-4a-stereotipi {
     left: 0%;
     top: 54%;
@@ -695,7 +713,7 @@ video.img-home {
 .img-4-stereotipi-wrap {
     max-width: 74vw;
     top: 0%;
-    left: 7%;
+    left: 0%;
     z-index: 3;
     position: relative;
 }
@@ -747,6 +765,54 @@ video.img-home {
     top: 15%;
     max-width: 42vw;
     cursor: pointer;
+}
+.img-11-wrap {
+    left: 48%;
+    top: 15%;
+    max-width: 42vw;
+    cursor: pointer;
+}
+.img-12-wrap {
+    left: 2%;
+    top: 15%;
+    max-width: 34vw;
+    cursor: pointer;
+}
+.img-13-wrap {
+    right: 2%;
+   bottom: 15%;
+    max-width: 52vw;
+    cursor: pointer;
+}
+.img-14-wrap {
+   left: 2%;
+   bottom: 15%;
+    max-width: 22vw;
+    cursor: pointer;
+}
+.img-15-wrap {
+   left: 53%;
+   top: 25%;
+    max-width: 40vw;
+    cursor: pointer;
+}
+.img-16-wrap {
+   left: 6%;
+   bottom:6%;
+    max-width: 65vw;
+    cursor: pointer;
+}
+.img-17-wrap {
+   right: 6%;
+   top:10%;
+    max-width: 45vw;
+    cursor: pointer;
+}
+.img-14 {
+    left: 4%;
+    top: 16%;
+   width: 42vw;
+    z-index: 80;
 }
 .img-9b-rotte {
     left: 74%;
