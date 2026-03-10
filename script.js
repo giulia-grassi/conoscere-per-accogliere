@@ -1,3 +1,52 @@
+// --- Stereotipi Modal Reveal Button ---
+document.addEventListener('DOMContentLoaded', function () {
+  var revealBtn = document.getElementById('stereotipi-reveal-btn');
+  var revealText = document.getElementById('stereotipi-reveal-text');
+  if (revealBtn && revealText) {
+    revealBtn.addEventListener('click', function () {
+      revealBtn.style.display = 'none';
+      revealText.style.display = 'block';
+    });
+  }
+
+  // Reset reveal state when modal is opened or slide is changed
+  var stereotipiModal = document.getElementById('stereotipiModal');
+  var stereotipiSlides = stereotipiModal ? stereotipiModal.querySelectorAll('.stereotipi-slide') : null;
+  var backBtn = document.getElementById('stereotipi-back-btn');
+  var provaBtn = document.getElementById('stereotipi-prova');
+  var backBtn2 = document.getElementById('stereotipi-back');
+
+  function resetReveal() {
+    if (revealBtn && revealText) {
+      revealBtn.style.display = '';
+      revealText.style.display = 'none';
+    }
+  }
+
+  // Quando si apre il modal (display block)
+  if (stereotipiModal) {
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(m) {
+        if (m.attributeName === 'style' && stereotipiModal.style.display === 'block') {
+          resetReveal();
+        }
+      });
+    });
+    observer.observe(stereotipiModal, { attributes: true });
+  }
+  // Quando si torna indietro alla slide 0
+  if (backBtn2) {
+    backBtn2.addEventListener('click', resetReveal);
+  }
+  if (backBtn) {
+    backBtn.addEventListener('click', resetReveal);
+  }
+  // Quando si va avanti alla slide 1
+  if (provaBtn) {
+    provaBtn.addEventListener('click', resetReveal);
+  }
+});
+// ...existing code...
 // --- Vedi il percorso nel modal protezioni ---
 document.addEventListener('DOMContentLoaded', function () {
   const vediPercorsoBtn = document.getElementById('vedi-percorso-btn');

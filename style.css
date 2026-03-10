@@ -1,3 +1,137 @@
+.onboarding-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+   
+}
+.onboarding-content {
+    max-width: 90vw;
+    max-height: 90vh;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+   
+    
+}
+.onboarding-content video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 40vh;
+    margin-bottom: 18px;
+}
+@media (max-width: 700px), (max-height: 500px) {
+    .onboarding-overlay {
+        padding: 8px !important;
+    }
+    .onboarding-content {
+        max-width: 98vw !important;
+        width: 98vw !important;
+        padding: 0px !important;
+        font-size: 0.85em !important;
+    }
+    .onboarding-welcome {
+        font-size: 1.1em !important;
+    }
+    .onboarding-content video {
+        max-width: 220px !important;
+        width: 90vw !important;
+        height: auto !important;
+    }
+    .onboarding-row {
+        flex-direction: row !important;
+        gap: 38px !important;
+    }
+    .onboarding-label {
+        font-size: 0.9em !important;
+    }
+}
+/* Logo piccolo nella navbar */
+.navbar-logo img {
+    height: 22px !important;
+    vertical-align: middle;
+    padding-right: -10px;
+    filter: grayscale(100%);
+}
+@media (max-width: 900px), (max-height: 700px) {
+    .img-3b-intro {
+        width: 20vw !important;
+        min-width: 280px !important;
+        max-width: 30vw !important;
+
+    }
+}
+@media (max-width: 900px), (max-height: 700px) {
+    .img-11b {
+        width: 50vw !important;
+        max-width: 80vw !important;
+        min-width: 160px !important;
+        left: -18vw !important;
+        top: 12% !important;
+        height: auto !important;
+    }
+}
+@media (max-width: 900px), (max-height: 700px) {
+    .img-11 {
+        top: auto !important;
+        bottom: 0 !important;
+        left: 1% !important;
+        width: 40vw !important;
+        max-width: 60vw !important;
+        min-width: 120px !important;
+        height: auto !important;
+    }
+}
+@media (max-width: 900px), (max-height: 700px) {
+    .img-4-stereotipi-wrap .clickable-center:hover ~ .img-home,
+    .img-4-stereotipi-wrap .clickable-center:focus ~ .img-home {
+        transform: scale(1.01) !important;
+    }
+}
+@media (max-width: 900px), (max-height: 700px) {
+    .img-4-stereotipi-wrap > video.img-home {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 98% !important;
+        max-height: 90vh !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        object-fit: contain !important;
+        display: block;
+    }
+}
+.img-4-stereotipi-wrap {
+    transition: max-width 0.5s, transform 0.5s;
+}
+
+@media (max-width: 900px), (max-height: 700px) {
+    .img-4-stereotipi-wrap {
+        max-width: 30vw !important;
+        transform: scale(1.02);
+    }
+}
+/* Forza il video dentro .img-10-mare-wrap a riempire il contenitore */
+.img-10-mare-wrap > video.img-home {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    object-fit: contain !important;
+    display: block;
+}
 .gallery-modal-close,
 #gallery-modal-close {
     position: absolute;
@@ -353,7 +487,17 @@ video.img-home {
     .img-10-mare-wrap #mare-center-overlay:focus + .img-10-mare {
         transform: scale(1.05) !important;
         opacity: 0.7 !important;
+        transition: transform 0.6s, opacity 0.6s;
     }
+
+@media (max-width: 900px), (max-height: 700px) {
+    #mare-center-overlay:hover + .img-10-mare,
+    #mare-center-overlay:focus + .img-10-mare,
+    .img-10-mare-wrap #mare-center-overlay:hover + .img-10-mare,
+    .img-10-mare-wrap #mare-center-overlay:focus + .img-10-mare {
+        transform: scale(1.0001) !important;
+    }
+}
 
 
 /* ONBOARDING */
@@ -378,7 +522,7 @@ video.img-home {
     justify-content: center;
     align-items: flex-end;
     gap: 148px;
-    margin: 28px 0 18px 0;
+    margin: 10px 0 28px 0;
 }
 .onboarding-col {
     display: flex;
@@ -470,7 +614,7 @@ video.img-home {
 .onboarding-overlay {
     position: fixed;
     top: 0; left: 0; width: 100vw; height: 100vh;
-    background: rgba(245,245,245,0.98);
+    background: #ffffff;
     z-index: 9999;
     display: flex;
     align-items: center;
@@ -478,45 +622,30 @@ video.img-home {
     transition: opacity 0.6s;
 }
 .onboarding-content {
-    background: #fff;
-    border-radius: 10px;
     padding: 8px 32px 28px 32px;
     text-align: center;
-    max-width: 940px;
+    max-width: 100%;
     color: #333;
 }
 .onboarding-content h2 {
     font-size: 2em;
-    margin-bottom: 18px;
-    font-weight: 400;
+    margin-bottom: 10px;
+    font-weight: 200;
 }
 .onboarding-welcome {
     display: block;
     min-height: 2.5em;
     height: 2.5em;
     line-height: 2.5em;
-    transition: color 0.3s;
     /* Regola l'altezza se necessario */
 }
 .onboarding-content p {
-    font-size: 1.15em;
+    font-size: 1.1em;
     margin-bottom: 22px;
 }
-.onboarding-btn {
-    background: #33758C;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 28px;
-    font-size: 1.1em;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(51,117,140,0.09);
-    transition: background 0.2s;
-}
-.onboarding-btn:hover {
-    background: #7fc1c9;
-}
+
+
+
 
 /* IMMAGINI HOME */
 /* Numero [ n ] sotto l'immagine */
@@ -557,13 +686,17 @@ video.img-home {
     z-index: 70;
 }
 .modal-number4 {
-    position: absolute;
-    margin-top: 54%;
+    
     font-size: 1.1em;
     font-weight: 700;
     color: #000000;
     text-align: left;
-    padding-left: 49%;
+    left: 1vw;
+    position: absolute;
+    left: 20%;
+    bottom: 30%;
+    z-index: 99;
+
 }
 .modal-number5 {
     margin-top: 8px;
@@ -583,12 +716,12 @@ video.img-home {
     margin-left:auto;
 }
 .modal-number10 {
-    margin-top: -48px;
+    margin-top: -68px;
     font-size: 1.1em;
     font-weight: 700;
     color: #000000;
     text-align: left;
-    padding-left: 200px;
+    padding-left: 20%;
     z-index: 90;
 }
 .modal-number-in {
@@ -682,7 +815,7 @@ video.img-home {
 }
 .img-3b-intro {
     position: absolute;
-    top: 54%;
+    bottom: 6%;
     right: 5%;;
     width: 33vw;
     z-index: 1;
@@ -693,14 +826,14 @@ video.img-home {
     top: 54%;
    left : 5%;;
     width: 33vw;
-    z-index: 1;
+    z-index: 3;
     pointer-events: none;
 }
 .img-11b {
     position: absolute;
     top: 13%;
-   left : 5%;;
-    width: 33vw;
+   left : -15%;;
+    width: 54vw;
     z-index: 1;
     pointer-events: none;
 }
@@ -712,10 +845,20 @@ video.img-home {
 }
 .img-4-stereotipi-wrap {
     max-width: 74vw;
+    height: auto;
     top: 0%;
     left: 0%;
     z-index: 3;
     position: relative;
+    transition: max-width 0.5s, transform 0.5s;
+    display: inline-block;
+}
+
+@media (max-width: 900px), (max-height: 700px) {
+    .img-4-stereotipi-wrap {
+        max-width: 98vw !important;
+        transform: scale(1.1);
+    }
 }
 
 /* Overlay centrale cliccabile per la stereotipi 4 */
@@ -738,8 +881,8 @@ video.img-home {
 }
 .img-5-stereotipi-wrap {
     right: 0%;
-    top: 55%;
-    max-width: 33vw;
+    bottom: 10%;
+    max-width: 32vw;
     z-index: 20;
 }
 .img-6-passaporto-wrap {
@@ -821,9 +964,12 @@ video.img-home {
     z-index: 80;
 }
 .img-10-mare-wrap {
-    left: 5%;
-    top: 7%;
-    max-width: 80vw;
+    left: 5% !important;
+    top: 7% !important;
+    height: 90vh !important;
+    width: 80vw !important;
+    min-height: 400px !important;
+    min-width: 600px !important;
 }
 
 .modal-note{
@@ -849,14 +995,15 @@ video.img-home {
                     font-weight: 400;
                     margin-bottom: 68px;
                     text-align: center;
-                    width: 400px;
-                }
-                .modal16-stories-btns {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 14px;
                     width: 100%;
-                    align-items: center;
+                    height: auto;
+                    max-width: 100vw;
+                    max-height: 80vh;
+                    min-width: 480px;
+                    min-height: 320px;
+                    display: block;
+                    border-radius: 0;
+                    object-fit: contain;
                     margin-bottom: 10px;
                 }
                
@@ -1377,12 +1524,14 @@ video.img-home {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 90%;
-    min-width: 80px;
-    max-width: 95%;
+    width: 80%;
+    min-width: 60px;
+    max-width: 85%;
     font-size: 1rem;
     font-family: "Open Sans", sans-serif;
     border: none;
+    min-width: 120px;
+    min-height: 80px;
     border-radius: 8px;
     padding: 6px 10px;
     resize: none;
@@ -1392,7 +1541,7 @@ video.img-home {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
-    min-height: 2.2em;
+    min-height: 2em;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -1512,21 +1661,27 @@ video.img-home {
     display: flex;
     flex-direction: row;
     z-index: 1;
+    min-width: 0;
+    min-height: 0;
 }
 .card-rect {
     flex: 1 1 0;
+    width: 0;
+    min-width: 0;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    box-sizing: border-box;
 }
 .card-rect-1 { background: #e3f0fa; border-top-left-radius: 12px; border-bottom-left-radius: 12px; }
 .card-rect-1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex: 1 1 0 !important;
+    width: 100% !important;
 }
 .card-rect-2 { background: #b3d6f2; }
 .card-rect-3 { background: #6fb0e5; }
@@ -1536,7 +1691,8 @@ video.img-home {
     z-index: 2;
     margin: 0;
     padding: 0 8px;
-    width: 100%;
+    width: 100% !important;
+    min-width: 0 !important;
     font-size: 1.2rem;
     font-family: "Open Sans", sans-serif;
     text-align: center;
@@ -1841,7 +1997,7 @@ body.storia-page .pdf-download { display: inline-block; }
 
 .accordion-body ul {
     font-size: 1.05rem;
-    line-height: 1.2 !important;
+    line-height: 1.8 !important;
     color: #666;
     font-family: "Open Sans", sans-serif;
     margin: 20px 0;

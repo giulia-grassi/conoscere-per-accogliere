@@ -34,7 +34,10 @@
     <!-- Fixed Navbar -->
     <nav class="navbar">
         <div class="navbar-content">
-            <div class="navbar-logo" id="navbar-logo">Conoscere per accogliere</div>
+            <div class="navbar-logo" id="navbar-logo">
+                <img src="images/CCB-logo2.webp" alt="Logo CCB" style="height:32px; vertical-align:middle; margin-right:8px;">
+                Conoscere per accogliere
+            </div>
             <div class="navbar-dots">
                 <span class="dot active" data-section="0"></span>
                 <span class="dot" data-section="1"></span>
@@ -49,7 +52,7 @@
             </div>
             <div class="navbar-links">
                 <a href="storia.html">In viaggio</a>
-                <a href="about.html">Il progetto</a>
+                <a href="about.html">Progetti</a>
             </div>
         </div>
     </nav>
@@ -96,9 +99,9 @@
                     <div class="img-label-wrap img-4-stereotipi-wrap">
                         <div class="clickable-center" tabindex="0" aria-label="Apri stereotipi"></div>
                         <video src="images/home/4-stereotipi.mp4" alt="Stereotipi, pregiudizi e discriminazioni" class="img-home img-4-stereotipi" autoplay muted loop></video>
-                        <span class="modal-number4">[ 4 ]</span>
+                       
                     </div>
-                    
+                     <span class="modal-number4">[ 4 ]</span>
                 </div>
             </section>
 
@@ -149,8 +152,8 @@
 
              <section>
                 <div class="parallax-container">
-                    <img src="images/home/11-arrivo.png" alt="Intro: l'inizio del viaggio" class="img-home img-11">
-                    <img src="images/home/11b-arrivo.png" alt="Intro: l'inizio del viaggio" class="img-home img-11b">
+                    <img src="images/home/11-arrivo.webp" alt="Intro: l'inizio del viaggio" class="img-home img-11">
+                    <img src="images/home/11b-arrivo.webp" alt="Intro: l'inizio del viaggio" class="img-home img-11b">
                 
                      <div class="img-label-wrap img-11-wrap" id="square-13">
                         <img src="images/home/11c-arrivo.png" alt="Rotte migratorie verso l'Italia" class="img-home img-9-rotte">
@@ -367,8 +370,8 @@
             </div>
             <!-- Slide 1 -->
             <div class="stereotipi-slide" data-slide="0">
-                <div id="pregiudizi-slideshow" style="width: 100%; max-width: 800px; margin: auto; display: flex; flex-direction: column; align-items: center;">
-                        <img id="pregiudizi-slideshow-img" src="images/home-slideshows/2.1.webp" alt="Stereotipi, pregiudizi, discriminazioni" style="width: 100%; max-width: 800px; display: block;">
+                <div id="pregiudizi-slideshow" style="width: 100%; max-width: 800px;  margin: auto; display: flex; flex-direction: column; align-items: center;">
+                        <img id="pregiudizi-slideshow-img" src="images/home-slideshows/2.1.webp" alt="Stereotipi, pregiudizi, discriminazioni" style="width: 100%; max-width: 600px; display: block;">
                     </div>
                 <div class="stereotipi-buttons">
                     <button class="stereotipi-btn" id="stereotipi-prova">Mettiti alla prova</button>
@@ -379,13 +382,14 @@
             <!-- Slide 2: Cards sfogliabili -->
             <div class="stereotipi-slide" data-slide="1" style="display: none;">
                                 <h2 class="stereotipi-cards-title">Stereotipi, pregiudizi, discriminazioni: riguardano anche te?</h2>
-                                <div class="stereotipi-audio-instruction" style="margin-bottom: 18px;">
-                                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-bottom: 18px;">
-                                        <div style="color: #222; font-size: 1em; font-weight: 500; margin-bottom: 8px; text-align: center;">
-                                            <br>Ascolta l’audio prima di proseguire</div>
-                                        <audio id="stereotipi-audio" src="audio/istruzioni-stereotipi.wav" controls style="width: 320px; margin: 0 auto; background: transparent; border-radius: 0;"></audio>
+                                    <div class="stereotipi-instruction" style="margin-bottom: 18px;">
+                                        <button id="stereotipi-reveal-btn" class="stereotipi-btn" style="margin: 20px auto 18px auto;">Prima di proseguire...</button>
+                                        <div id="stereotipi-reveal-text" style="display:none; color: #666; font-size: 0.92em; font-weight: 400; margin-top: 18px; text-align: left; padding: 24px 32px 0 32px;">
+    Niente moralismo e buonismo, vogliamo che entri in contatto con la parte vera anche se buia, di te.<br><br>
+    Stereotipi, pregiudizi e discriminazioni nascono dalle paure e le paure le abbiamo tutti… solo vedendole possiamo affrontarle e chiederci da dove nascono per poter andare oltre; oltre lo stereotipo, oltre il pregiudizio, oltre la discriminazione.<br><br>
+    Scrivi sul colore più chiaro lo stereotipo, su quello in mezzo il pregiudizio e su quello più scuro la discriminazione che tu provi/agisci sulla tematica riportata in ogni immagine. Alla fine dell’esercizio chiediti da che paura nasce il tutto e informati realmente su quell’argomento, confrontandoti con altre persone se necessario.
+                                        </div>
                                     </div>
-                                </div>
                 <div class="cards-carousel">
                     <button class="carousel-btn" id="carousel-prev">
                         <span class="carousel-arrow carousel-arrow-left"></span>
@@ -950,7 +954,7 @@
                 <div id="msna-monza-slideshow" style="width: 100%; max-width: 600px; margin: 30px auto; display: flex; flex-direction: column; align-items: center;">
                     <img id="msna-monza-img" src="images/dixit/1.webp" alt="Dixit" style="width: 100%; max-width: 400px; display: block; border-radius: 12px; box-shadow: 0 2px 8px #0002;">
                         <div class="stereotipi-buttons" style="text-align: center; margin-top: 24px;">
-                            <a href="about.html" class="stereotipi-btn stereotipi-link">vieni a conoscerci</a>
+                            <a href="about.html" class="stereotipi-btn stereotipi-link">Vieni a conoscerci</a>
                         </div>
                 </div>
             </div>
