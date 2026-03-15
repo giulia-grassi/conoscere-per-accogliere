@@ -1893,9 +1893,9 @@ body.storia-page .pdf-download { display: inline-block; }
 .quote-box {
     margin: 40px 0;
     padding: 30px;
-    border: 2px solid #ddd;
+    border: 1px solid rgb(182, 182, 182);
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .quote-text {

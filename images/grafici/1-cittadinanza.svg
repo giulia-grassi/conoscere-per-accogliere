@@ -34,18 +34,22 @@
   <rect id="background" class="st7" width="1005" height="600"/>
   <g id="viz">
     <g id="pie">
-      <path class="st3" d="M358.15,54.35c137.88,0,249.65,111.77,249.65,249.65,0,3.02-.05,6.05-.16,9.07l-249.49-9.07V54.35Z"/>
-      <path class="st2" d="M607.64,313.07c-5.01,137.79-120.77,245.43-258.56,240.42-137.79-5.01-245.43-120.77-240.42-258.56,4.88-134.26,115.14-240.59,249.49-240.59v249.65l249.49,9.07Z"/>
+      <path class="st3" d="M358.15,81.97c122.63,0,222.03,99.41,222.03,222.03,0,2.69-.04,5.38-.14,8.07l-221.89-8.07V81.97h0Z"/>
+      <path class="st2" d="M580.04,312.07c-4.46,122.55-107.41,218.28-229.96,213.82-122.55-4.46-218.28-107.41-213.82-229.96,4.34-119.41,102.4-213.98,221.89-213.98v222.03l221.89,8.07h0Z"/>
     </g>
   </g>
   <g>
     <rect class="st5" x="691.85" y="287.13" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
     <g class="st0">
-      <text class="st1" transform="translate(727.13 306.18)"><tspan x="0" y="0">Stranieri extracomunitari</tspan></text>
+      <g class="st0">
+        <text class="st1" transform="translate(727.13 306.18)"><tspan x="0" y="0">Stranieri extracomunitari</tspan></text>
+      </g>
     </g>
     <rect class="st6" x="691.85" y="246.93" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
     <g class="st0">
-      <text class="st1" transform="translate(727.13 265.98)"><tspan x="0" y="0">Stranieri comunitari (UE)</tspan></text>
+      <g class="st0">
+        <text class="st1" transform="translate(727.13 265.98)"><tspan x="0" y="0">Stranieri comunitari (UE)</tspan></text>
+      </g>
     </g>
   </g>
   <circle class="st4" cx="358.15" cy="304" r="140.91"/>

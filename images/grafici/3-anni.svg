@@ -1,1 +1,224 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1005" height="600"><rect width="1005" height="600" x="0" y="0" fill="#FFFFFF" id="background"/><g id="viz"><g transform="translate(0,0)"><g transform="translate(50,20)"><g id="Maschi" fill="#ff7f0e"><rect x="9.867549668874119" y="412.8844363636364" width="56.96267308850091" height="147.11556363636362"/><rect x="143.52799518362428" y="406.2321454545455" width="56.96267308850091" height="153.7678545454545"/><rect x="210.35821794099937" y="330.036" width="56.96267308850091" height="229.964"/><rect x="277.18844069837445" y="272.36210909090903" width="56.96267308850091" height="287.63789090909097"/><rect x="344.0186634557495" y="289.7297454545454" width="56.96267308850091" height="270.2702545454546"/><rect x="410.8488862131246" y="388.5590545454545" width="56.96267308850091" height="171.4409454545455"/><rect x="477.6791089704997" y="483.39505454545457" width="56.96267308850091" height="76.60494545454543"/><rect x="544.5093317278747" y="535.1405818181819" width="56.96267308850091" height="24.859418181818114"/><rect x="611.3395544852499" y="553.2978181818182" width="56.96267308850091" height="6.702181818181771"/><rect x="678.1697772426248" y="559.1824" width="56.96267308850091" height="0.8175999999999704"/><rect x="76.6977724262492" y="478.5454545454545" width="56.96267308850091" height="81.4545454545455"/></g><g id="Femmine" fill="#1f77b4"><rect x="9.867549668874119" y="274.88210909090907" width="56.96267308850091" height="138.0023272727273"/><rect x="143.52799518362428" y="276.43687272727277" width="56.96267308850091" height="129.79527272727273"/><rect x="210.35821794099937" y="182.0819636363637" width="56.96267308850091" height="147.9540363636363"/><rect x="277.18844069837445" y="12.072072727272714" width="56.96267308850091" height="260.2900363636363"/><rect x="344.0186634557495" y="15.395927272727246" width="56.96267308850091" height="274.3338181818182"/><rect x="410.8488862131246" y="170.93032727272723" width="56.96267308850091" height="217.6287272727273"/><rect x="477.6791089704997" y="348.05934545454545" width="56.96267308850091" height="135.33570909090906"/><rect x="544.5093317278747" y="487.0691636363636" width="56.96267308850091" height="48.07141818181816"/><rect x="611.3395544852499" y="541.2542545454546" width="56.96267308850091" height="12.043563636363615"/><rect x="678.1697772426248" y="557.5792727272727" width="56.96267308850091" height="1.6031272727273063"/><rect x="76.6977724262492" y="343.6363636363636" width="56.96267308850091" height="134.90909090909093"/></g><g id="xAxis" transform="translate(0,560)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M0,0H745"/><g class="tick" opacity="1" transform="translate(38.34888621312457,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">0–9</text></g><g class="tick" opacity="1" transform="translate(105.17910897049966,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">100+</text></g><g class="tick" opacity="1" transform="translate(172.00933172787472,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">10–19</text></g><g class="tick" opacity="1" transform="translate(238.83955448524983,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">20–29</text></g><g class="tick" opacity="1" transform="translate(305.6697772426249,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">30–39</text></g><g class="tick" opacity="1" transform="translate(372.49999999999994,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">40–49</text></g><g class="tick" opacity="1" transform="translate(439.33022275737505,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">50–59</text></g><g class="tick" opacity="1" transform="translate(506.16044551475017,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">60–69</text></g><g class="tick" opacity="1" transform="translate(572.9906682721252,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">70–79</text></g><g class="tick" opacity="1" transform="translate(639.8208910295003,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">80–89</text></g><g class="tick" opacity="1" transform="translate(706.6511137868753,0)"><line stroke="currentColor" y2="6"/><text fill="currentColor" y="9" dy="0.71em">90–99</text></g></g><g id="yAxis" fill="none" font-size="10" font-family="sans-serif" text-anchor="end"><path class="domain" stroke="currentColor" d="M0,560V0"/><g class="tick" opacity="1" transform="translate(0,560)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">0</text></g><g class="tick" opacity="1" transform="translate(0,509.09090909090907)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">100</text></g><g class="tick" opacity="1" transform="translate(0,458.18181818181813)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">200</text></g><g class="tick" opacity="1" transform="translate(0,407.2727272727273)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">300</text></g><g class="tick" opacity="1" transform="translate(0,356.3636363636364)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">400</text></g><g class="tick" opacity="1" transform="translate(0,305.45454545454544)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">500</text></g><g class="tick" opacity="1" transform="translate(0,254.54545454545456)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">600</text></g><g class="tick" opacity="1" transform="translate(0,203.63636363636365)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">700</text></g><g class="tick" opacity="1" transform="translate(0,152.72727272727272)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">800</text></g><g class="tick" opacity="1" transform="translate(0,101.81818181818178)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">900</text></g><g class="tick" opacity="1" transform="translate(0,50.90909090909093)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">1,000</text></g><g class="tick" opacity="1" transform="translate(0,0)"><line stroke="currentColor" x2="-6"/><text fill="currentColor" x="-9" dy="0.32em">1,100</text></g></g><text y="556" x="745" text-anchor="end" style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">Fascia d’età</text></g><text x="4" y="4" style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: hanging;"/></g><g id="grid"><rect x="0" y="0" width="805" height="600" fill="none" stroke="#ccc"/></g></g><g id="legend" transform="translate(805,20)"><g transform="translate(5,0)"><g class="legendColor" transform="translate(0,0)"><g class="legendCells" transform="translate(0,15.5)"><g class="cell" transform="translate(0, 0)"><rect class="swatch" height="15" width="15" style="fill: rgb(31, 119, 180);"/><text class="label" transform="translate( 20, 12.5)" font-family="&quot;Arial&quot;, sans-serif" font-size="10px"><tspan x="0" dy="0em">Femmine</tspan></text></g><g class="cell" transform="translate(0, 20.5)"><rect class="swatch" height="15" width="15" style="fill: rgb(255, 127, 14);"/><text class="label" transform="translate( 20, 12.5)" font-family="&quot;Arial&quot;, sans-serif" font-size="10px"><tspan x="0" dy="0em">Maschi</tspan></text></g></g><text class="legendTitle" font-family="&quot;Arial&quot;, sans-serif" font-size="12px" font-weight="bold"><tspan x="0" dy="0em">Colors</tspan></text></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1005 600">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ff7f0e;
+      }
+
+      .st1 {
+        font-family: Helvetica, Helvetica;
+        font-size: 10px;
+      }
+
+      .st1, .st2, .st3, .st4 {
+        isolation: isolate;
+      }
+
+      .st3 {
+        fill: #7b7b7b;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .st5 {
+        fill: #f7966f;
+      }
+
+      .st4 {
+        font-family: ArialMT, Arial;
+        font-size: 17.64px;
+      }
+
+      .st6 {
+        fill: #2166ac;
+      }
+
+      .st7 {
+        fill: none;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <g id="viz">
+    <g>
+      <g id="Maschi">
+        <rect class="st5" x="127.14" y="432.88" width="56.96" height="147.12"/>
+        <rect class="st5" x="193.53" y="426.23" width="56.96" height="153.77"/>
+        <rect class="st5" x="260.36" y="350.04" width="56.96" height="229.96"/>
+        <rect class="st5" x="327.19" y="292.36" width="56.96" height="287.64"/>
+        <rect class="st5" x="394.02" y="309.73" width="56.96" height="270.27"/>
+        <rect class="st5" x="460.85" y="408.56" width="56.96" height="171.44"/>
+        <rect class="st5" x="527.68" y="503.4" width="56.96" height="76.6"/>
+        <rect class="st5" x="594.51" y="555.14" width="56.96" height="24.86"/>
+        <rect class="st5" x="661.34" y="573.3" width="56.96" height="6.7"/>
+        <rect class="st0" x="728.17" y="579.18" width="56.96" height=".82"/>
+      </g>
+      <g id="Femmine">
+        <rect class="st6" x="127.14" y="294.88" width="56.96" height="138"/>
+        <rect class="st6" x="193.53" y="296.44" width="56.96" height="129.8"/>
+        <rect class="st6" x="260.36" y="202.08" width="56.96" height="147.95"/>
+        <rect class="st6" x="327.19" y="32.07" width="56.96" height="260.29"/>
+        <rect class="st6" x="394.02" y="35.4" width="56.96" height="274.33"/>
+        <rect class="st6" x="460.85" y="190.93" width="56.96" height="217.63"/>
+        <rect class="st6" x="527.68" y="368.06" width="56.96" height="135.34"/>
+        <rect class="st6" x="594.51" y="507.07" width="56.96" height="48.07"/>
+        <rect class="st6" x="661.34" y="561.25" width="56.96" height="12.04"/>
+        <rect class="st6" x="728.17" y="577.58" width="56.96" height="1.6"/>
+      </g>
+      <g id="xAxis">
+        <path class="st7" d="M50,580h745"/>
+        <g class="st2">
+          <text class="st1" transform="translate(146.57 596.1)"><tspan x="0" y="0">0–9</tspan></text>
+        </g>
+        <line class="st7" x1="155.18" y1="580" x2="155.18" y2="586"/>
+        <g>
+          <line class="st7" x1="222.01" y1="580" x2="222.01" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(208.11 596.1)"><tspan x="0" y="0">10–19</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="288.84" y1="580" x2="288.84" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(274.94 596.1)"><tspan x="0" y="0">20–29</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="355.67" y1="580" x2="355.67" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(341.77 596.1)"><tspan x="0" y="0">30–39</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="422.5" y1="580" x2="422.5" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(408.6 596.1)"><tspan x="0" y="0">40–49</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="489.33" y1="580" x2="489.33" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(475.43 596.1)"><tspan x="0" y="0">50–59</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="556.16" y1="580" x2="556.16" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(542.26 596.1)"><tspan x="0" y="0">60–69</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="622.99" y1="580" x2="622.99" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(609.09 596.1)"><tspan x="0" y="0">70–79</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="689.82" y1="580" x2="689.82" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(675.92 596.1)"><tspan x="0" y="0">80–89</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="756.65" y1="580" x2="756.65" y2="586"/>
+          <g class="st2">
+            <text class="st1" transform="translate(742.75 596.1)"><tspan x="0" y="0">90–99</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="yAxis">
+        <path class="st7" d="M50,580V20"/>
+        <g>
+          <line class="st7" x1="50" y1="580" x2="44" y2="580"/>
+          <g class="st2">
+            <text class="st1" transform="translate(35.44 583.2)"><tspan x="0" y="0">0</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="529.09" x2="44" y2="529.09"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 532.29)"><tspan x="0" y="0">100</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="478.18" x2="44" y2="478.18"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 481.38)"><tspan x="0" y="0">200</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="427.27" x2="44" y2="427.27"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 430.47)"><tspan x="0" y="0">300</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="376.36" x2="44" y2="376.36"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 379.56)"><tspan x="0" y="0">400</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="325.45" x2="44" y2="325.45"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 328.65)"><tspan x="0" y="0">500</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="274.55" x2="44" y2="274.55"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 277.75)"><tspan x="0" y="0">600</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="223.64" x2="44" y2="223.64"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 226.84)"><tspan x="0" y="0">700</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="172.73" x2="44" y2="172.73"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 175.93)"><tspan x="0" y="0">800</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="121.82" x2="44" y2="121.82"/>
+          <g class="st2">
+            <text class="st1" transform="translate(24.32 125.02)"><tspan x="0" y="0">900</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="70.91" x2="44" y2="70.91"/>
+          <g class="st2">
+            <text class="st1" transform="translate(15.98 74.11)"><tspan x="0" y="0">1,000</tspan></text>
+          </g>
+        </g>
+        <g>
+          <line class="st7" x1="50" y1="20" x2="44" y2="20"/>
+          <g class="st2">
+            <text class="st1" transform="translate(15.98 23.2)"><tspan x="0" y="0">1,100</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g class="st2">
+        <text class="st3" transform="translate(807.72 580.87)"><tspan x="0" y="0">Fascia d’età</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect class="st6" x="754.36" y="83.99" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st2">
+    <g class="st2">
+      <text class="st4" transform="translate(789.64 106.05)"><tspan x="0" y="0">Femmine</tspan></text>
+    </g>
+  </g>
+  <rect class="st5" x="754.36" y="124.19" width="26.46" height="26.46" rx="5.07" ry="5.07"/>
+  <g class="st2">
+    <g class="st2">
+      <text class="st4" transform="translate(789.64 146.24)"><tspan x="0" y="0">Maschi</tspan></text>
+    </g>
+  </g>
+</svg>

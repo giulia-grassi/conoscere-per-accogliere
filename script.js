@@ -235,6 +235,12 @@ document.addEventListener("DOMContentLoaded", function() {
       if (onboarding.style.display !== "none") closeOnboarding();
     }, { once: true });
   }
+  // Reindirizza a about.html se si clicca in qualsiasi punto dell'onboarding
+  if (onboarding) {
+    onboarding.addEventListener('click', function() {
+      window.location.href = 'about.html';
+    });
+  }
 });
 
 // FUNZIONI GENERALI
