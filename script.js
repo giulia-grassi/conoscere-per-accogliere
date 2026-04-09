@@ -1449,7 +1449,7 @@ const timelineSteps = [
   {
     id: 'step7',
     title: 'La decisione',
-    content: `<ul><li>Dopo il colloquio, lo Stato prende una decisione.</li><li>La risposta arriva dopo un tempo di attesa</li></ul>`
+    content: `<ul><li>Dopo il colloquio, lo Stato prende una decisione.</li><li>La risposta arriva dopo un tempo di attesa.</li><li>La decisione può essere: riconoscimento di una protezione, rigetto (con possibilità di ricorso), o rimpatrio.</li></ul>`
   },
   {
     id: 'step8',

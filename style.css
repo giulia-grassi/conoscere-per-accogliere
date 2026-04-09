@@ -1060,10 +1060,12 @@ video.img-home {
                             z-index: 9;
                         }
                         .orbit-ball-1 { animation-delay: 0s; --angle: 0deg; }
-                        .orbit-ball-2 { animation-delay: 0s; --angle: 72deg; }
-                        .orbit-ball-3 { animation-delay: 0s; --angle: 144deg; }
-                        .orbit-ball-4 { animation-delay: 0s; --angle: 216deg; }
-                        .orbit-ball-5 { animation-delay: 0s; --angle: 288deg; }
+                        .orbit-ball-2 { animation-delay: 0s; --angle: 51.43deg; }
+                        .orbit-ball-3 { animation-delay: 0s; --angle: 102.86deg; }
+                        .orbit-ball-4 { animation-delay: 0s; --angle: 154.29deg; }
+                        .orbit-ball-5 { animation-delay: 0s; --angle: 205.71deg; }
+                        .orbit-ball-6 { animation-delay: 0s; --angle: 257.14deg; }
+                        .orbit-ball-7 { animation-delay: 0s; --angle: 308.57deg; }
                         @keyframes orbit {
                             0%   { transform: rotate(var(--angle)) translateX(220px) translateY(0) scale(1); }
                             100% { transform: rotate(calc(var(--angle) + 360deg)) translateX(220px) translateY(0) scale(1); }
@@ -3497,11 +3499,14 @@ h1{
                             background: rgba(255,255,255,0.01);
                             z-index: 9;
                         }
+                        /* Solo versione 7 palline, angoli equidistanti */
                         .orbit-ball-1 { animation-delay: 0s; --angle: 0deg; }
-                        .orbit-ball-2 { animation-delay: 0s; --angle: 72deg; }
-                        .orbit-ball-3 { animation-delay: 0s; --angle: 144deg; }
-                        .orbit-ball-4 { animation-delay: 0s; --angle: 216deg; }
-                        .orbit-ball-5 { animation-delay: 0s; --angle: 288deg; }
+                        .orbit-ball-2 { animation-delay: 0s; --angle: 51.43deg; }
+                        .orbit-ball-3 { animation-delay: 0s; --angle: 102.86deg; }
+                        .orbit-ball-4 { animation-delay: 0s; --angle: 154.29deg; }
+                        .orbit-ball-5 { animation-delay: 0s; --angle: 205.71deg; }
+                        .orbit-ball-6 { animation-delay: 0s; --angle: 257.14deg; }
+                        .orbit-ball-7 { animation-delay: 0s; --angle: 308.57deg; }
                         @keyframes orbit {
                             0%   { transform: rotate(var(--angle)) translateX(180px) translateY(0) scale(1); }
                             100% { transform: rotate(calc(var(--angle) + 360deg)) translateX(180px) translateY(0) scale(1); }
