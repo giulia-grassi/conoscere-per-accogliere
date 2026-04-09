@@ -1166,7 +1166,7 @@ flagsInModal.forEach(flag => {
       if (title) {
         title.classList.add('hidden');
       }
-      // Nascondi la scritta [ 9 ] Rotte migratorie verso l'Italia e mostra il bottone Indietro
+      // Nascondi la scritta [ 9 ] Rotte migratorie irregolari verso l'Europa e mostra il bottone Indietro
       if (testimonianzeNumber && testimoniaBack) {
         testimonianzeNumber.style.display = 'none';
         testimoniaBack.style.display = 'inline';
@@ -1193,7 +1193,7 @@ if (testimoniaBack) {
     if (title) {
       title.classList.remove('hidden');
     }
-    // Mostra di nuovo la scritta [ 9 ] Rotte migratorie verso l'Italia e nascondi il bottone Indietro
+    // Mostra di nuovo la scritta [ 9 ] Rotte migratorie irregolari verso l'Europa e nascondi il bottone Indietro
     if (testimonianzeNumber && testimoniaBack) {
       testimonianzeNumber.style.display = '';
       testimoniaBack.style.display = 'none';
