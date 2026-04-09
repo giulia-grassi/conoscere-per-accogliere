@@ -1106,7 +1106,7 @@ if (square9) {
     });
     // Reset header and back button
     if (testimonianzeNumber) {
-      testimonianzeNumber.textContent = '[ 9 ] Rotte migratorie verso l\'Italia';
+        testimonianzeNumber.textContent = '[ 9 ] Rotte migratorie irregolari verso l\'Europa';
       testimonianzeNumber.style.display = '';
     }
     if (testimoniaBack) {
